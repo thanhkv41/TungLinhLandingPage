@@ -7,8 +7,13 @@ export const MediaBlock: Block = {
     {
       name: 'media',
       type: 'upload',
+      label: 'Tệp media',
       relationTo: 'media',
       required: true,
     },
   ],
+  labels: {
+    plural: 'Khối media',
+    singular: 'Khối media',
+  },
 }

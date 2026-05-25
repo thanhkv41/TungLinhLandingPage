@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-label="Office project placeholder">
+  <defs><linearGradient id="sky" y1="0" y2="1"><stop stop-color="#7eb5dc"/><stop offset="1" stop-color="#edf6fb"/></linearGradient></defs>
+  <rect width="760" height="520" fill="url(#sky)"/>
+  <rect y="410" width="760" height="110" fill="#d3ddd2"/>
+  <g transform="translate(250 52)">
+    <path d="M0 68 L270 0 L270 390 L0 430 Z" fill="#dce3e7"/>
+    <path d="M270 0 L430 70 L430 430 L270 390 Z" fill="#c3cdd3"/>
+    <g fill="#8395a0">
+      <rect x="34" y="105" width="42" height="44"/><rect x="100" y="92" width="42" height="44"/><rect x="166" y="78" width="42" height="44"/>
+      <rect x="34" y="185" width="42" height="44"/><rect x="100" y="172" width="42" height="44"/><rect x="166" y="158" width="42" height="44"/>
+      <rect x="34" y="265" width="42" height="44"/><rect x="100" y="252" width="42" height="44"/><rect x="166" y="238" width="42" height="44"/>
+    </g>
+  </g>
+</svg>

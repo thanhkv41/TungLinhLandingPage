@@ -5,6 +5,11 @@ import { revalidateFooter } from './hooks/revalidateFooter'
 
 export const Footer: GlobalConfig = {
   slug: 'footer',
+  label: 'Menu chân trang',
+  admin: {
+    group: 'Cấu hình',
+    hidden: true,
+  },
   access: {
     read: () => true,
   },
@@ -12,6 +17,7 @@ export const Footer: GlobalConfig = {
     {
       name: 'navItems',
       type: 'array',
+      label: 'Liên kết menu',
       fields: [
         link({
           appearances: false,

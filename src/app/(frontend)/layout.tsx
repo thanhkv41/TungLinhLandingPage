@@ -10,23 +10,24 @@ import { Footer } from '@/Footer/Component'
 import { Header } from '@/Header/Component'
 import { Providers } from '@/providers'
 import { InitTheme } from '@/providers/Theme/InitTheme'
-import { mergeOpenGraph } from '@/utilities/mergeOpenGraph'
 import { draftMode } from 'next/headers'
 
+import { FloatingActions } from './_components/FloatingActions.client'
+import { getSiteSettings } from './_lib/cms'
 import './globals.css'
-import { getServerSideURL } from '@/utilities/getURL'
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const { isEnabled } = await draftMode()
+  const settings = await getSiteSettings()
 
   return (
-    <html className={cn(GeistSans.variable, GeistMono.variable)} lang="en" suppressHydrationWarning>
+    <html className={cn(GeistSans.variable, GeistMono.variable)} lang="vi" suppressHydrationWarning>
       <head>
         <InitTheme />
         <link href="/favicon.ico" rel="icon" sizes="32x32" />
         <link href="/favicon.svg" rel="icon" type="image/svg+xml" />
       </head>
-      <body>
+      <body className="bg-white text-slate-950">
         <Providers>
           <AdminBar
             adminBarProps={{
@@ -34,9 +35,14 @@ export default async function RootLayout({ children }: { children: React.ReactNo
             }}
           />
 
-          <Header />
+          <Header settings={settings} />
           {children}
-          <Footer />
+          <Footer settings={settings} />
+          <FloatingActions
+            facebookUrl={settings?.facebookUrl}
+            hotline={settings?.hotline}
+            zaloUrl={settings?.zaloUrl}
+          />
         </Providers>
       </body>
     </html>
@@ -44,10 +50,13 @@ export default async function RootLayout({ children }: { children: React.ReactNo
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL(getServerSideURL()),
-  openGraph: mergeOpenGraph(),
+  title: {
+    default: 'Tùng Linh Company',
+    template: '%s | Tùng Linh Company',
+  },
+  description:
+    'Website doanh nghiệp sản xuất, gia công inox, nhôm, kính và vật liệu trang trí nội ngoại thất.',
   twitter: {
     card: 'summary_large_image',
-    creator: '@payloadcms',
   },
 }

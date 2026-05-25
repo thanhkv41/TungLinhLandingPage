@@ -4,8 +4,8 @@ const BeforeLogin: React.FC = () => {
   return (
     <div>
       <p>
-        <b>Welcome to your dashboard!</b>
-        {' This is where site admins will log in to manage your website.'}
+        <b>Đăng nhập quản trị Tùng Linh.</b>
+        {' Khu vực này dùng để quản lý nội dung website, sản phẩm, dự án, tin tức và thông tin liên hệ.'}
       </p>
     </div>
   )

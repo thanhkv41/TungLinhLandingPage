@@ -4,17 +4,53 @@
   margin-bottom: base(1.5);
 
   &__banner {
+    margin-bottom: base(0.75);
+
     & h4 {
       margin: 0;
     }
   }
 
-  &__instructions {
-    list-style: decimal;
-    margin-bottom: base(0.5);
+  &__intro {
+    margin-bottom: base(1);
+    max-width: 760px;
+  }
 
-    & li {
-      width: 100%;
+  &__cards {
+    display: grid;
+    gap: base(0.65);
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+
+    & a {
+      border: 1px solid var(--theme-elevation-150);
+      border-radius: 8px;
+      color: inherit;
+      display: grid;
+      gap: base(0.2);
+      padding: base(0.75);
+      text-decoration: none;
+      transition:
+        border-color 180ms ease,
+        box-shadow 180ms ease,
+        transform 180ms ease;
+
+      &:hover {
+        border-color: var(--theme-elevation-400);
+        box-shadow: 0 10px 28px rgb(0 0 0 / 8%);
+        opacity: 1;
+        transform: translateY(-2px);
+      }
+    }
+
+    & strong {
+      font-size: 16px;
+      line-height: 1.35;
+    }
+
+    & span {
+      color: var(--theme-elevation-650);
+      font-size: 13px;
+      line-height: 1.45;
     }
   }
 

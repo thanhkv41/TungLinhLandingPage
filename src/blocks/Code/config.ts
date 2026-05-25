@@ -7,6 +7,7 @@ export const Code: Block = {
     {
       name: 'language',
       type: 'select',
+      label: 'Ngôn ngữ',
       defaultValue: 'typescript',
       options: [
         {

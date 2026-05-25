@@ -1,0 +1,943 @@
+﻿{
+    "categories":  [
+                       {
+                           "title":  "He XFA",
+                           "slug":  "xfa",
+                           "isActive":  true
+                       },
+                       {
+                           "title":  "He KAWIN (He Ranh C Chau Au)",
+                           "slug":  "kawin",
+                           "isActive":  true
+                       }
+                   ],
+    "products":  [
+                     {
+                         "title":  "Hệ Cửa Đi Lùa KAWIN 120",
+                         "slug":  "he-cua-di-lua-kawin-120",
+                         "categoryKey":  "kawin",
+                         "featuredImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20231007/9tgf-he-cua-di-lua-kawin-120.png",
+                         "galleryUrls":  [
+
+                                         ],
+                         "shortDescription":  "Sản phẩm được sản xuất trên hệ thống dây chuyền sản xuất hiện đại nhất tại nhà máy nhôm XINGFAWINDOW. Cùng với những tính năng ưu việt, Hệ Kawin hứa hẹn sẽ là dòng sản phẩm chủ lực của NHÔM XINGFAWINDOW, là chìa khóa mang đến sự đa dạng và linh hoạt cho nhu cầu của từng công trình sang trọng mang đẳng cấp châu âu. Chúng tôi cam kết cung cấp sản phẩm chất lượng, mang đến sự hài lòng và niềm tin tuyệt đối cho khách hàng khi lựa chọn NHÔM XINGFAWINDOW.",
+                         "contentPlain":  "",
+                         "specifications":  [
+
+                                            ],
+                         "advantages":  [
+
+                                        ],
+                         "applications":  [
+
+                                          ],
+                         "seoTitle":  "Hệ Cửa Đi Lùa KAWIN 120",
+                         "seoDescription":  "",
+                         "ogImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20231007/9tgf-he-cua-di-lua-kawin-120.png",
+                         "sourceUrl":  "https://nhomxingfawindow.com/he-cua-di-lua-kawin-120",
+                         "status":  "published",
+                         "isFeatured":  false
+                     },
+                     {
+                         "title":  "Hệ Cửa Sổ Lùa KAWIN 65",
+                         "slug":  "he-cua-so-lua-kawin-65",
+                         "categoryKey":  "kawin",
+                         "featuredImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20231007/4gfx-he-cua-so-lua-kawin-65.png",
+                         "galleryUrls":  [
+
+                                         ],
+                         "shortDescription":  "Sản phẩm được sản xuất trên hệ thống dây chuyền sản xuất hiện đại nhất tại nhà máy nhôm XINGFAWINDOW. Cùng với những tính năng ưu việt, Hệ Kawin hứa hẹn sẽ là dòng sản phẩm chủ lực của NHÔM XINGFAWINDOW, là chìa khóa mang đến sự đa dạng và linh hoạt cho nhu cầu của từng công trình sang trọng mang đẳng cấp châu âu. Chúng tôi cam kết cung cấp sản phẩm chất lượng, mang đến sự hài lòng và niềm tin tuyệt đối cho khách hàng khi lựa chọn NHÔM XINGFAWINDOW.",
+                         "contentPlain":  "",
+                         "specifications":  [
+
+                                            ],
+                         "advantages":  [
+
+                                        ],
+                         "applications":  [
+
+                                          ],
+                         "seoTitle":  "Hệ Cửa Sổ Lùa KAWIN 65",
+                         "seoDescription":  "",
+                         "ogImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20231007/4gfx-he-cua-so-lua-kawin-65.png",
+                         "sourceUrl":  "https://nhomxingfawindow.com/he-cua-so-lua-kawin-65",
+                         "status":  "published",
+                         "isFeatured":  false
+                     },
+                     {
+                         "title":  "Hệ KAWIN 65 (Cửa Đi, Cửa Sổ)",
+                         "slug":  "he-kawin-65",
+                         "categoryKey":  "kawin",
+                         "featuredImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20231007/fycj-he-kawin-65.png",
+                         "galleryUrls":  [
+
+                                         ],
+                         "shortDescription":  "Sản phẩm được sản xuất trên hệ thống dây chuyền sản xuất hiện đại nhất tại nhà máy nhôm XINGFAWINDOW. Cùng với những tính năng ưu việt, Hệ Kawin hứa hẹn sẽ là dòng sản phẩm chủ lực của NHÔM XINGFAWINDOW, là chìa khóa mang đến sự đa dạng và linh hoạt cho nhu cầu của từng công trình sang trọng mang đẳng cấp châu âu. Chúng tôi cam kết cung cấp sản phẩm chất lượng, mang đến sự hài lòng và niềm tin tuyệt đối cho khách hàng khi lựa chọn NHÔM XINGFAWINDOW.",
+                         "contentPlain":  "",
+                         "specifications":  [
+
+                                            ],
+                         "advantages":  [
+
+                                        ],
+                         "applications":  [
+
+                                          ],
+                         "seoTitle":  "Hệ KAWIN 65 (Cửa Đi, Cửa Sổ)",
+                         "seoDescription":  "",
+                         "ogImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20231007/fycj-he-kawin-65.png",
+                         "sourceUrl":  "https://nhomxingfawindow.com/he-kawin-65",
+                         "status":  "published",
+                         "isFeatured":  false
+                     },
+                     {
+                         "title":  "Hệ Phào Song Chấn",
+                         "slug":  "he-phao-song-chan",
+                         "categoryKey":  "xfa",
+                         "featuredImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20250714/uimm-xfa.png",
+                         "galleryUrls":  [
+
+                                         ],
+                         "shortDescription":  "Hệ phào song chắn là sự kết hợp hoàn hảo giữa hệ phào và song bảo vệ, tạo nên một bộ cửa chắc chắn - liền mạch – thẩm mỹ – đồng nhất với toàn bộ kiến trúc công trình",
+                         "contentPlain":  "",
+                         "specifications":  [
+                                                {
+                                                    "label":  "Báº£n cÃ¡nh",
+                                                    "value":  "160 mm"
+                                                },
+                                                {
+                                                    "label":  "Chiá»u dÃ y nhÃ´m",
+                                                    "value":  "2.0 mm"
+                                                },
+                                                {
+                                                    "label":  "Chiá»u dÃ y kÃ­nh",
+                                                    "value":  "6 - 21 mm"
+                                                }
+                                            ],
+                         "advantages":  [
+                                            {
+                                                "title":  "An toàn",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Cách âm",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Kín gió",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Kín nước",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Cách nhiệt",
+                                                "description":  ""
+                                            }
+                                        ],
+                         "applications":  [
+
+                                          ],
+                         "seoTitle":  "Hệ Phào Song Chắn",
+                         "seoDescription":  "Hệ phào song chắn là sự kết hợp hoàn hảo giữa hệ phào và song bảo vệ, tạo nên một bộ cửa chắc chắn -  liền mạch – thẩm mỹ – đồng nhất với toàn bộ kiến trúc công trình",
+                         "ogImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20250714/uimm-xfa.png",
+                         "sourceUrl":  "https://nhomxingfawindow.com/he-phao-song-chan",
+                         "status":  "published",
+                         "isFeatured":  false
+                     },
+                     {
+                         "title":  "Hệ Song Bảo Vệ, Lá Sách XFA",
+                         "slug":  "he-song-bao-ve-cua-so-xfa",
+                         "categoryKey":  "xfa",
+                         "featuredImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20231021/6mux-song-bao-ve.png",
+                         "galleryUrls":  [
+
+                                         ],
+                         "shortDescription":  "Song bảo vệ XFA là những song chắn bảo vệ ở vị trí cửa sổ, cửa đi. Song có thể được lắp đặt ở bên trong hoặc bên ngoài cửa sổ, thường là ở trong vì tính thẩm mỹ cao hơn.",
+                         "contentPlain":  "Giới thiệu Song Bảo Vệ và Lá Sách XFA: Sự Lựa Chọn An Toàn và Thẩm Mỹ cho Ngôi Nhà của Bạn\nBạn đang tìm kiếm giải pháp an toàn và thẩm mỹ cho các hệ cửa và cửa sổ của ngôi nhà của mình? Hãy để chúng tôi giới thiệu về Song Bảo Vệ và Lá Sách XFA - hai sản phẩm chất lượng từ XINGFAWINDOW.\n1. Song Bảo Vệ XFA: An Toàn và Chắc Chắn\nThiết kế từ nhôm cao cấp, hệ thống Song Bảo Vệ XFA mang lại độ bền vượt trội và khả năng chịu lực mạnh mẽ, bảo vệ ngôi nhà của bạn trước mọi nguy cơ từ bên ngoài.\nVới kiểu dáng hiện đại và tính thẩm mỹ cao, Song Bảo Vệ XFA không chỉ làm đẹp cho ngôi nhà mà còn tạo điểm nhấn sang trọng và độc đáo.\n2. Lá Sách XFA: Sự Kết Hợp Hoàn Hảo giữa Thẩm Mỹ và Tiện Ích\nLá Sách XFA được làm từ nhôm chất lượng cao, giúp chống ăn mòn và rỉ sét, đảm bảo độ bền và tuổi thọ cao.\nThiết kế thông minh của Lá Sách XFA không chỉ giúp che nắng mà còn tạo điều kiện cho không gian trong nhà thông thoáng và thoáng đãng.\nVới Song Bảo Vệ và Lá Sách XFA, bạn không chỉ yên tâm về an ninh cho gia đình mình mà còn tạo nên vẻ đẹp ấn tượng cho ngôi nhà của bạn. Hãy liên hệ với chúng tôi ngay hôm nay để được tư vấn và lựa chọn sản phẩm phù hợp nhất cho ngôi nhà của bạn!",
+                         "specifications":  [
+                                                {
+                                                    "label":  "Bá» rá»™ng khung nhÃ´m",
+                                                    "value":  "120 mm"
+                                                },
+                                                {
+                                                    "label":  "Chiá»u dÃ y nhÃ´m",
+                                                    "value":  "2.0mm"
+                                                },
+                                                {
+                                                    "label":  "Chiá»u dÃ y kÃ­nh",
+                                                    "value":  "6 - 21 mm"
+                                                }
+                                            ],
+                         "advantages":  [
+                                            {
+                                                "title":  "Kín nước",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "An toàn",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Cách âm",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Cách nhiệt",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Kín gió",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Màu sắc",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Đen",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Nâu",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Trắng",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Vân gỗ",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Xám",
+                                                "description":  ""
+                                            }
+                                        ],
+                         "applications":  [
+
+                                          ],
+                         "seoTitle":  "Hệ Song Bảo Vệ, Lá Sách XFA",
+                         "seoDescription":  "Song bảo vệ cửa sổ XFA là những song chắn bảo vệ ở vị trí cửa sổ. Song có thể được lắp đặt ở bên trong hoặc bên ngoài cửa sổ, thường là ở trong vì tính thẩm mỹ cao hơn.",
+                         "ogImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20231021/6mux-song-bao-ve.png",
+                         "sourceUrl":  "https://nhomxingfawindow.com/he-song-bao-ve-cua-so-xfa",
+                         "status":  "published",
+                         "isFeatured":  false
+                     },
+                     {
+                         "title":  "Hệ XFA55 Cánh Phẳng - Màu Xám Đá",
+                         "slug":  "he-xfa55-canh-phang",
+                         "categoryKey":  "xfa",
+                         "featuredImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20250512/y634-xfa-55-xam.png",
+                         "galleryUrls":  [
+
+                                         ],
+                         "shortDescription":  "XFA55 cánh phẳng màu xám đá là một trong những dòng sản phẩm nổi bật thuộc hệ nhôm cao cấp của XINGFAWINDOW, được thiết kế theo phong cách tối giản, sang trọng và hiện đại. Không sử dụng gân nổi như các dòng truyền thống, cánh phẳng mang lại cảm giác liền mạch, thanh lịch, đồng thời giúp hạn chế bám bụi và dễ dàng vệ sinh – một lựa chọn tối ưu cho cuộc sống tiện nghi.",
+                         "contentPlain":  "",
+                         "specifications":  [
+                                                {
+                                                    "label":  "Báº£n cÃ¡nh",
+                                                    "value":  "95.0 mm"
+                                                },
+                                                {
+                                                    "label":  "Chiá»u dÃ y nhÃ´m",
+                                                    "value":  "2.0 mm"
+                                                },
+                                                {
+                                                    "label":  "Chiá»u dÃ y kÃ­nh",
+                                                    "value":  "6 - 21 mm"
+                                                }
+                                            ],
+                         "advantages":  [
+                                            {
+                                                "title":  "An toàn",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Cách âm",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Cách nhiệt",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Kín gió",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Kín nước",
+                                                "description":  ""
+                                            }
+                                        ],
+                         "applications":  [
+
+                                          ],
+                         "seoTitle":  "Hệ XFA55 Cánh Phẳng",
+                         "seoDescription":  "Trong xu hướng kiến trúc hiện đại, tối giản – bền vững – tinh tế đang trở thành tiêu chuẩn hàng đầu. Nắm bắt xu thế đó, XINGFAWINDOW đã cho ra mắt hệ XFA55 cánh phẳng màu xám đá, dòng sản phẩm nhôm cao cấp không chỉ nổi bật về thiết kế mà còn vượt trội về",
+                         "ogImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20250512/y634-xfa-55-xam.png",
+                         "sourceUrl":  "https://nhomxingfawindow.com/he-xfa55-canh-phang",
+                         "status":  "published",
+                         "isFeatured":  false
+                     },
+                     {
+                         "title":  "Hệ XFA93 PRO",
+                         "slug":  "he-xfa93-pro",
+                         "categoryKey":  "xfa",
+                         "featuredImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20231008/y2z4-xfa-93-pro.png",
+                         "galleryUrls":  [
+
+                                         ],
+                         "shortDescription":  "Hệ nhôm XFA PRO là hệ nhôm profile độc quyền của nhà máy Nhôm XFAWINDOW có lối thiết kế theo phong cách Châu Âu. Với các đường gân chạy dọc thanh nhôm profile giúp tăng khả năng chịu lực đặc biệt thiết kế rãnh C tiêu chuẩn có thể lắp được các phụ kiện cao cấp Châu Âu mang đến một hệ cửa hiện đại, sang trọng và đẳng cấp.",
+                         "contentPlain":  "Giới thiệu\nHệ nhôm XFA PRO là hệ nhôm profile độc quyền của nhà máy Nhôm XFAWINDOW có lối thiết kế theo phong cách Châu Âu. Với các đường gân chạy dọc thanh nhôm profile giúp tăng khả năng chịu lực đặc biệt thiết kế rãnh C tiêu chuẩn có thể lắp được các phụ kiện cao cấp Châu Âu mang đến một hệ cửa hiện đại, sang trọng và đẳng cấp.\nHệ nhôm 93XFA PRO được sử dụng 100% sơn của AkzoNobel (Hà Lan) và dây chuyền sơn được cấp giấy chứng nhận đủ điều kiện bảo hành sơn lên đến 25 năm.\nCửa sổ mở hất (còn được gọi là cửa sổ bật) là một trong những dòng sản phẩm được nhiều người sử dụng nhất với tính năng ưu việt có thể mở cửa lấy ánh sáng và gió khi thời tiết ẩm có mưa mà vẫn đảm bảo không bị nước hất vào trong nhà. Đồng thời khi đóng mở cửa không ảnh hưởng đến không gian và diện tích sử dụng của căn phòng.\nGiới hạn chiều cao cánh: 400 ÷ 1400/ Giới hạn chiều rộng cánh: 300 ÷ 800.\nCửa sổ mở hất có 2 loại: Cửa sổ bật đứng (Awning Window) và Cửa bật ngang (Casement Window), giúp bạn có nhiều sự chọn lựa cho ngôi nhà của mình.\nĐặc điểm nổi bật:\nSản phẩm nhập khẩu có thể mở được khe thoáng với góc tối đa 45 độ, có thanh định vị giữ vị trí góc mở nên tránh được nguy cơ gió đập.\nCó tác dụng lấy thoáng không khí gió và không bị hắt mưa nắng vào bên trong công trình, dễ dàng thuận tiện cho việc lau chùi vệ sinh và tiết kiệm chi phí bảo dưỡng cửa định kỳ.\nBề mặt cửa được sơn tĩnh điện cao cấp nhằm chống lại sự ăn mòn và phai màu theo thời gian.\n+ Mẫu cửa sổ mở hất nhôm Xingfa có khả năng chịu lực và độ an toàn cao, chịu nước tuyệt đối vì sử dụng thanh profile nhôm Xingfa hệ 55 tương thích với phụ kiện Kinlong cao cấp nhập khẩu đồng bộ tạo nên một hệ cửa siêu thẩm mỹ có độ bền vượt thời gian.\nCách âm \u0026 cách nhiệt:\nCửa và vách được cấu tạo từ thanh hợp kim nhôm Xingfa có cấu trúc dạng hộp chia thành nhiều khoang trống kết hợp với hệ gioăng và hệ phụ kiện kim khí đồng bộ đã tạo nên sản phẩm có khả năng cách âm tốt, cách nhiệt cao.\nMẫu cửa sổ mở hất với công nghệ ghép góc tiên tiến bậc nhất hiện nay đảm bảo cửa cứng vững, cách âm, cách nhiệt cùng độ kín, khít cao.\nKín nước \u0026 kín khí:\nSản phẩm có các ống dẫn nước hướng ra ngoài được thiết kế trên khung cửa sẽ ngăn nước chảy vào bên trong một cách tối đa.\nSự kín khít tuyệt đối cản trở việc lưu thông không khí lạnh ở trong và nóng ở ngoài góp phần tiết kiệm chi phí điện cho điều hoà.\nChịu áp lực gió:\nCửa có tay nắm đa điểm, thanh chống giật và bản lề chữ A tránh được nguy cơ gió đập, chịu được áp lực gió lên đến 1600 pascal, đủ điều kiện đảm bảo an toàn cho những công trình nằm tại khu vực nhiều gió bão.\nHiệu quả kinh tế:\nViệc sử dụng cửa hợp kim, vách nhôm và hộp kính là giải pháp tốt nhất trong việc tiết kiệm năng lượng cho các toà nhà cao tầng có nhiều mặt tiếp xúc trực tiếp với ánh năng mặt trời.\nThanh nhôm được xử lý bề mặt và sơn tĩnh điện với công nghệ tiên tiến sẽ có độ bền cao, luôn giữ được màu sắc và kết cấu của cửa ngay cả trong điều kiện thời tiết khắc nghiệt ở Việt Nam.\nAn toàn \u0026 thuận tiện:\nCửa sổ mở hất có độ cứng cao giúp tăng khả năng chịu lực, đảm bảo an toàn cho ngôi nhà, giúp mở rộng không gian và tạo được tầm nhìn bao quát tối đa cho công trình.\nVật liệu sử dụng mẫu cửa sổ mở hất nhôm Xingfa nhẹ góp phần làm giảm tải trọng của công trình.\nMẫu cửa sổ hất 1 cánh có thể kết hợp với mở quay, vách cố định trên cùng một khuôn cửa, mang lại nhiều lựa chọn về không gian mở cho người sử dụng.\nSản phẩm rất đa dạng kích thước, mẫu mã, kiểu dáng, phù hợp với nhiều kiểu kiến trúc theo nhu cầu sử dụng thực tế của công trình.\nLắp đặt \u0026 bảo dưỡng :\nThuận tiện trong công việc thi công lắp đặt chắc chắn, an toàn mang đến một hệ cửa hoàn thiện cả về thiết kế thẩm mỹ và độ bền theo thời gian.\nSản phẩm cửa nhôm Xingfa nhập khẩu với mẫu cửa sổ mở hất dễ dàng lau chùi, dễ dàng bảo dưỡng và luôn giữ được vẻ đẹp hoàn hảo ban đầu.",
+                         "specifications":  [
+                                                {
+                                                    "label":  "Bá» rá»™ng khung nhÃ´m",
+                                                    "value":  "93 mm"
+                                                },
+                                                {
+                                                    "label":  "Chiá»u dÃ y nhÃ´m",
+                                                    "value":  "2.0 mm"
+                                                },
+                                                {
+                                                    "label":  "Chiá»u dÃ y kÃ­nh",
+                                                    "value":  "6 - 12 mm"
+                                                }
+                                            ],
+                         "advantages":  [
+                                            {
+                                                "title":  "An toàn",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Cách âm",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Cách nhiệt",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Kín gió",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Kín nước",
+                                                "description":  ""
+                                            }
+                                        ],
+                         "applications":  [
+
+                                          ],
+                         "seoTitle":  "Hệ XFA93 PRO",
+                         "seoDescription":  "",
+                         "ogImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20231008/y2z4-xfa-93-pro.png",
+                         "sourceUrl":  "https://nhomxingfawindow.com/he-xfa93-pro",
+                         "status":  "published",
+                         "isFeatured":  false
+                     },
+                     {
+                         "title":  "Hệ KAWIN 60 (Cửa Đi, Cửa Sổ)",
+                         "slug":  "kawin-60",
+                         "categoryKey":  "kawin",
+                         "featuredImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20231007/2iqr-a2bcf06ec29f16c14f8e.jpg",
+                         "galleryUrls":  [
+
+                                         ],
+                         "shortDescription":  "Sản phẩm được sản xuất trên hệ thống dây chuyền sản xuất hiện đại nhất tại nhà máy nhôm XINGFAWINDOW. Cùng với những tính năng ưu việt, Hệ Kawin hứa hẹn sẽ là dòng sản phẩm chủ lực của NHÔM XINGFAWINDOW, là chìa khóa mang đến sự đa dạng và linh hoạt cho nhu cầu của từng công trình sang trọng mang đẳng cấp châu âu. Chúng tôi cam kết cung cấp sản phẩm chất lượng, mang đến sự hài lòng và niềm tin tuyệt đối cho khách hàng khi lựa chọn NHÔM XINGFAWINDOW.",
+                         "contentPlain":  "",
+                         "specifications":  [
+
+                                            ],
+                         "advantages":  [
+
+                                        ],
+                         "applications":  [
+
+                                          ],
+                         "seoTitle":  "KAWIN 65",
+                         "seoDescription":  "",
+                         "ogImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20231007/2iqr-a2bcf06ec29f16c14f8e.jpg",
+                         "sourceUrl":  "https://nhomxingfawindow.com/kawin-60",
+                         "status":  "published",
+                         "isFeatured":  false
+                     },
+                     {
+                         "title":  "Lan Can XFA",
+                         "slug":  "lan-can-xfa",
+                         "categoryKey":  "xfa",
+                         "featuredImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20231021/v9wf-lan-can.png",
+                         "galleryUrls":  [
+
+                                         ],
+                         "shortDescription":  "Song hành cùng các hạng mục thi công thiết kế nội thất như cửa nhôm kính, cửa kính, cửa tự động, cầu thang kính…thì lan can kính là một trong những sự lựa tối ưu góp phần mang lại vẻ đẹp hoàn hảo cho mọi công trình. Hiện nay, lan can XFA được ưu chuông và đưa vào các công trình dự án, nhà dân ngày càng phổ biến, bởi nó được ví như cây cầu nối trung gian, đưa bức tranh thiên nhiên thơ mộng bên ngoài vào với không gian bên trong ngôi nhà của bạn.",
+                         "contentPlain":  "GIỚI THIỆU LAN CAN XFA\nHiện nay, lan can kính cường lực nhôm XINGFAWINDOW thường được lắp đặt cho lan can mặt tiền nhà phố, nhà ống. So với các dạng lan can kính thông thường, sản phẩm của chúng tôi có những nét chắc chắn, độc đáo và vượt trội trong thiết kế cũng như độ bền. Với khả năng chịu lực mạnh mẽ và kháng lại tác động của thời tiết, lan can kính cường lực nhôm XINGFAWINDOW không chỉ mang lại sự an toàn mà còn tạo điểm nhấn thẩm mỹ cho ngôi nhà của bạn.\nƯu Điểm Nổi Bật Của Lan Can Kính Cường Lực Nhôm XINGFAWINDOW\nĐộ Bền Vượt Trội:\nSản phẩm được làm từ nhôm cao cấp đạt tiêu chuẩn 6063-T5, kết hợp với kính cường lực có độ dày từ 6 - 21 mm, đảm bảo khả năng chịu lực mạnh mẽ, chống va đập tốt.\nThiết Kế Hiện Đại:\nLan can kính cường lực nhôm XINGFAWINDOW có thiết kế hiện đại với hai mẫu tay nắm vuông và tay nắm tròn, phù hợp với nhiều phong cách kiến trúc khác nhau.\nKhả Năng Chống Chịu Thời Tiết:\nVới lớp sơn tĩnh điện cao cấp từ Akzonobel Hà Lan, sản phẩm không chỉ chống rỉ sét mà còn giữ được màu sắc tươi mới lên đến 25 năm, bất chấp các điều kiện thời tiết khắc nghiệt.\nAn Toàn Và Thẩm Mỹ:\nKính cường lực không chỉ mang lại sự an toàn, tránh nguy cơ vỡ vụn mà còn tạo cảm giác thoáng đãng, mở rộng không gian sống, đồng thời tăng thêm vẻ sang trọng và tinh tế cho ngôi nhà.\nDễ Dàng Bảo Dưỡng:\nVới bề mặt nhẵn mịn, lan can kính cường lực dễ dàng vệ sinh, bảo dưỡng, giữ cho sản phẩm luôn sạch đẹp như mới.\nỨng Dụng Rộng Rãi\nLan can kính cường lực nhôm XINGFAWINDOW được ưa chuộng lắp đặt cho nhiều loại công trình như:\nMặt tiền nhà phố: Tạo điểm nhấn kiến trúc, tăng cường ánh sáng tự nhiên và tạo cảm giác không gian rộng mở.\nNhà ống: Giúp không gian trở nên thông thoáng, hiện đại và sang trọng hơn.\nCác dự án chung cư, thương mại: Đáp ứng các yêu cầu khắt khe về độ bền và thẩm mỹ.\nKết Luận\nLan can kính cường lực nhôm XINGFAWINDOW là sự lựa chọn hoàn hảo cho những ai đang tìm kiếm sự kết hợp giữa độ bền, an toàn và thẩm mỹ. Hãy để sản phẩm của chúng tôi nâng tầm không gian sống của bạn, mang lại vẻ đẹp hiện đại và sang trọng.",
+                         "specifications":  [
+                                                {
+                                                    "label":  "Bá» rá»™ng khung nhÃ´m",
+                                                    "value":  "120 mm"
+                                                },
+                                                {
+                                                    "label":  "Chiá»u dÃ y nhÃ´m",
+                                                    "value":  "2.0mm"
+                                                },
+                                                {
+                                                    "label":  "Chiá»u dÃ y kÃ­nh",
+                                                    "value":  "6 - 21 mm"
+                                                }
+                                            ],
+                         "advantages":  [
+                                            {
+                                                "title":  "An toàn",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Cách âm",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Cách nhiệt",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Kín gió",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Kín nước",
+                                                "description":  ""
+                                            }
+                                        ],
+                         "applications":  [
+
+                                          ],
+                         "seoTitle":  "Lan Can XFA",
+                         "seoDescription":  "Song hành cùng các hạng mục thi công thiết kế nội thất như cửa nhôm kính, cửa kính, cửa tự động, cầu thang kính…thì lan can kính là một trong những sự lựa tối ưu góp phần mang lại vẻ đẹp hoàn hảo cho mọi công trình. Hiện nay, lan can XFA được ưu chuông và",
+                         "ogImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20231021/v9wf-lan-can.png",
+                         "sourceUrl":  "https://nhomxingfawindow.com/lan-can-xfa",
+                         "status":  "published",
+                         "isFeatured":  false
+                     },
+                     {
+                         "title":  "Nhôm Nội Thất",
+                         "slug":  "nhom-noi-that",
+                         "categoryKey":  "xfa",
+                         "featuredImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20250714/oqtu-xfa.png",
+                         "galleryUrls":  [
+
+                                         ],
+                         "shortDescription":  "Hệ Nhôm Nội Thất cao cấp – sự thay thế hoàn hảo cho các vật liệu truyền thống, đặc biệt phù hợp khu vực có độ ẩm cao như phòng bếp,… .Đặc biệt, thi công nhanh chóng, đáp ứng tiến độ tổng thể của công trình mà vẫn đảm bảo chất lượng tuyệt đối.",
+                         "contentPlain":  "",
+                         "specifications":  [
+
+                                            ],
+                         "advantages":  [
+
+                                        ],
+                         "applications":  [
+
+                                          ],
+                         "seoTitle":  "Nhôm Nội Thất",
+                         "seoDescription":  "Hệ Nhôm Nội Thất cao cấp – sự thay thế hoàn hảo cho các vật liệu truyền thống, đặc biệt phù hợp khu vực có độ ẩm cao như phòng bếp,… .Đặc biệt, thi công nhanh chóng, đáp ứng tiến độ tổng thể của công trình mà vẫn đảm bảo chất lượng tuyệt đối.",
+                         "ogImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20250714/oqtu-xfa.png",
+                         "sourceUrl":  "https://nhomxingfawindow.com/nhom-noi-that",
+                         "status":  "published",
+                         "isFeatured":  false
+                     },
+                     {
+                         "title":  "Hệ XFA1000",
+                         "slug":  "xfa-1000",
+                         "categoryKey":  "xfa",
+                         "featuredImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20231008/aiob-xfa-93-pro.png",
+                         "galleryUrls":  [
+
+                                         ],
+                         "shortDescription":  "Cửa đi XFA1000 được sử dụng khung bao lớn hơn giúp tăng độ chắc chắn, mang lại sự đẳng cấp, sang trọng với màu sắc đa dạng như trắng, xám, ghi, nâu và vân gỗ đỏ bằng hệ thống sơn tĩnh điện Nordson (Mỹ) được cấp giấy chứng nhận đủ điều kiện bảo hành sơn lên đến 25 năm của tập đoàn Akzonobel (Hà Lan) được sử dụng tại các công trình biệt thự, nhà phố sang trọng và cao cấp.",
+                         "contentPlain":  "Giới thiệu\nCửa đi XFA1000 được sử dụng khung bao lớn hơn giúp tăng độ chắc chắn, mang lại sự đẳng cấp, sang trọng với màu sắc đa dạng như trắng, xám, ghi, nâu và vân gỗ đỏ bằng hệ thống sơn tĩnh điện Nordson (Mỹ) được cấp giấy chứng nhận đủ điều kiện bảo hành sơn lên đến 25 năm của tập đoàn Akzonobel (Hà Lan) được sử dụng tại các công trình biệt thự, nhà phố sang trọng và cao cấp.\nVật liệu cấu thành:\nCửa đi mở quay 2 cánh nhôm Xingfa được làm từ chất liệu nhôm XINGFAWINDOW cao cấp kết hợp với kính có độ an toàn cao, hệ phụ kiện đồng bộ tạo nên một thể thống nhất hoàn chỉnh cho sản phẩm. Giá trị của cửa đi mở quay 2 cánh nhôm Xingfa ngày càng đi lên và được người tiêu dùng tin dùng và lựa chọn sử dụng cho các công trình xây dựng.\nVới cấu tạo vô cùng đơn giản: gồm phần khung nhôm, kính, gioăng keo và hệ phụ kiện.\nKhung nhôm: Làm từ nhôm Xingfa hệ 1000 với độ dày từ 2mm. Các thanh profile nhôm định hình với nhiều khoang trống kết hợp cùng với các gân so le nhau làm tăng độ cứng cho khung nhôm, cửa nhôm chịu lực rất tốt, mang lại độ an toàn tuyệt đối cho các công trình xây dựng\nĐiểm nổi trôi của thanh nhôm Xingfa đó chính là có mạ thêm lớp Crom ở bên ngoài làm tăng kết cấu bền vững của nhôm cùng với công nghệ phun sơn tĩnh điện hiện đại bậc nhất, sơn sẽ bám chặt vào thanh nhôm giúp cho cửa nhôm không bị oxi hóa, không bị bay màu.\nKính sử dụng trong cửa đi mở quay 2 cánh nhôm Xingfa rất đa dạng. Nên sử dụng các loại kính có độ an toàn cao, không nên sử dụng kính thường sẽ gây ra các chấn thương không đáng có khi sự cố xảy ra.\nGioăng EPDM làm từ cao su tự nhiên với độ đàn hồi tốt, độ bền vượt thời gian cùng với keo đặc chủng chịu nước 100% sử dụng cho cửa đi mở quay 2 cánh nhôm Xingfa tạo độ kín khít tuyển đối cho cửa.\nHệ phụ kiện của cửa bao gồm: tay nắm, thân khóa đơn điểm (hoặc đa điểm), miệng khóa, lõi khóa 2 đầu chìa, thanh chố cánh phụ, hố chốt, bản lề 3D.\nƯu điểm:\nCửa đi mở quay 2 cánh nhôm Xingfa sử dụng gioăng, keo cao cấp cùng với công nghệ ép góc tiên tiến bậc nhất hiện nay tạo nên độ kín khít 100%, không khí không thể lọt qua cửa , âm thanh cũng bị chặn lại.\nCách nhiệt tối ưu: Các thanh hợp kim nhôm được luyện ở nhiệt độ cao lên đến vài trăm độ nên với nhiệt lượng môi trường không làm ảnh hưởng gì đến khung nhôm, từ đó cửa sẽ không truyền nhiệt hay thu nhiệt từ môi trường xung quanh.\nĐảm bảo kín nước rất tốt: Sản phẩm có lắp đặt hệ thống thoát nước trên thanh nhôm, giúp cho nước không bị tràn vào bên trong nhà khi có mưa bão tác động vào cửa.\nThiết kế của cửa mở quay chịu được sức gió rất lớn ở cấp độ 10-12 tương đương với lực 1600 pascal, cửa chịu được lực va đập mạnh từ tác nhân bên ngoài và chống vặn xoắn khi mở cửa rất hiệu quả.",
+                         "specifications":  [
+                                                {
+                                                    "label":  "Bá» rá»™ng khung nhÃ´m",
+                                                    "value":  "1000 mm"
+                                                },
+                                                {
+                                                    "label":  "Chiá»u dÃ y nhÃ´m",
+                                                    "value":  "1.2 mm - 2.0 mm"
+                                                },
+                                                {
+                                                    "label":  "Chiá»u dÃ y kÃ­nh",
+                                                    "value":  "6 mm - 21 mm"
+                                                }
+                                            ],
+                         "advantages":  [
+                                            {
+                                                "title":  "Cách nhiệt",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Kín gió",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Kín nước",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "An toàn",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Cách âm",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Màu sắc",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Đen",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Nâu",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Trắng",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Vân gỗ",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Xám",
+                                                "description":  ""
+                                            }
+                                        ],
+                         "applications":  [
+
+                                          ],
+                         "seoTitle":  "Hệ XFA1000",
+                         "seoDescription":  "Cửa đi XFA1000 được sử dụng khung bao lớn hơn giúp tăng độ chắc chắn, mang lại sự đẳng cấp, sang trọng với màu sắc đa dạng như trắng, xám, ghi, nâu và vân gỗ đỏ bằng hệ thống sơn tĩnh điện Nordson (Mỹ) được cấp giấy chứng nhận đủ điều kiện bảo hành sơn lê",
+                         "ogImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20231008/aiob-xfa-93-pro.png",
+                         "sourceUrl":  "https://nhomxingfawindow.com/xfa-1000",
+                         "status":  "published",
+                         "isFeatured":  false
+                     },
+                     {
+                         "title":  "Hệ XFA120",
+                         "slug":  "xfa-120",
+                         "categoryKey":  "xfa",
+                         "featuredImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20231008/m2nb-xfa-120.png",
+                         "galleryUrls":  [
+
+                                         ],
+                         "shortDescription":  "Hệ thủy lực XFA120 được thiết kế với khung nhôm độc đáo, chắc khỏe và làm tăng giá trị thẩm mỹ cho không gian.",
+                         "contentPlain":  "Giới thiệu\nHệ thủy lực XFA120 được thiết kế với khung nhôm độc đáo, chắc khỏe và làm tăng giá trị thẩm mỹ cho không gian.\nHệ thủy lực được sử dụng bản lề thủy lực âm sàn nên cánh cửa có thể đóng mở theo 2 chiều. Do đó khách hàng rất thuận tiện trong quá trình sử dụng.\nHệ thủy lực XFA120 được sử dụng 100% sơn AkzoNobel (Hà Lan) và dây chuyền sơn được cấp phép chứng nhận đủ điều kiện bảo hành sơn lên đến 25 năm.\nCấu tạo của cửa kính thủy lực 2 cánh\nCửa kính thủy lực 2 cánh là dòng sản phẩm được tạo nên từ mặt kính cường lực và bản lề thủy lực. Bên trong cấu tạo cửa kính còn có rất nhiều các chi tiết phụ được sản xuất theo từng bộ phụ kiện. Nổi bật nhất phải kể đến là tay nắm cửa, kẹp định vị, kẹp trên, kẹp dưới, khóa âm sàng,…\nXét về mặt thiết kế, bản lề thủy lực của dòng sản phẩm sở hữu cấu tạo hoàn toàn khác biệt với loại bản lề cửa gỗ và cửa sắt truyền thống. Bởi khi này bộ phận bản lề của cửa kính thủy lực được đặt ngầm phía dưới sàn nhà và mép tường. Bên trên phần bản lề sẽ được bao phủ tấm inox bền chắc.\nCấu tạo của mặt kính cường lực sở hữu độ dày tiêu chuẩn từ 10mm đến 12mm. Sản phẩm được thiết kế và gia công dựa trên diện tích thực tế của công trình xây dựng.\nƯu điểm\nThực tế cho thấy khả năng chống đổ vỡ của bộ cửa kính cao gấp 5 lần so với các sản phẩm thông thường. Theo đó mẫu cửa kính sẽ đem đến sự bảo vệ tốt nhất cho người sử dụng.\nCửa kính thủy lực cao cấp là khả năng cách âm hiệu quả. Tất cả là nhờ vào sự tương thích tuyệt đối của các chi tiết cửa sau quá trình lắp đặt. Dựa vào đây, dòng sản phẩm còn cho hiệu quả chống tràn nước tối ưu trong điều kiện mưa gió, bão bùng. Đây cũng là một trong những điểm mạnh, giúp cho bộ cửa kính nhận được sự yêu thích rất lớn từ phía khách hàng.\nNgoài ra, cửa kính thủy lực đẹp là khả năng cách nhiệt rất tốt. Dòng sản phẩm đảm bảo được khoảng không gian mát mẻ cho người dùng, kể cả khi thời tiết nóng bức. Đặc tính này có được là nhờ lớp kính cường lực dày dặn, giúp cách nhiệt hữu hiệu nhưng vẫn đón được luồng ánh sáng chiếu rọi.\nĐặc biệt nhất là dòng sản phẩm sở hữu vẻ đẹp sang trọng với nhiều kiểu dáng đa dạng, bắt mắt. Điền hình như mẫu cửa kính cường thủy lực 2 cánh mở quay truyền thống và mẫu cửa kính 2 cánh trượt lùa hiện đại. Nhờ vậy mà quý khách hàng có được sự lựa chọn vô cùng đa dạng, khi tìm mua cho mình dòng sản phẩm phù hợp cho công trình xây dựng.\nCửa kính thủy lực 2 cánh còn đem đến sự tiện lợi cao cho người dùng nhờ mặt kính bóng bẩy và dễ dàng lau chùi. Điều này sẽ giúp bạn tiết kiệm được rất nhiều công sức trong quá trình tin dùng sản phẩm tại công trình thi công.",
+                         "specifications":  [
+                                                {
+                                                    "label":  "Bá» rá»™ng khung nhÃ´m",
+                                                    "value":  "120 mm"
+                                                },
+                                                {
+                                                    "label":  "Chiá»u dÃ y nhÃ´m",
+                                                    "value":  "2.0mm"
+                                                },
+                                                {
+                                                    "label":  "Chiá»u dÃ y kÃ­nh",
+                                                    "value":  "6 - 21 mm"
+                                                }
+                                            ],
+                         "advantages":  [
+                                            {
+                                                "title":  "Kín nước",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "An toàn",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Cách âm",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Cách nhiệt",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Kín gió",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Màu sắc",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Đen",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Nâu",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Trắng",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Vân gỗ",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Xám",
+                                                "description":  ""
+                                            }
+                                        ],
+                         "applications":  [
+
+                                          ],
+                         "seoTitle":  "Hệ XFA120",
+                         "seoDescription":  "Hệ thủy lực XFA120 của NHÔM XINGFAWINDOW kết hợp sự tinh tế và chắc khỏe trong từng khung nhôm, làm tăng giá trị thẩm mỹ cho không gian. Hệ thủy lực được sử dụng bản lề thủy lực âm sàn nên cánh cửa có thể đóng mở theo 2 chiều. Do đó khách hàng rất thuận t",
+                         "ogImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20231008/m2nb-xfa-120.png",
+                         "sourceUrl":  "https://nhomxingfawindow.com/xfa-120",
+                         "status":  "published",
+                         "isFeatured":  false
+                     },
+                     {
+                         "title":  "Hệ XFA 55",
+                         "slug":  "xfa-55",
+                         "categoryKey":  "xfa",
+                         "featuredImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20231008/vpmm-xfa-55.png",
+                         "galleryUrls":  [
+
+                                         ],
+                         "shortDescription":  "Hệ nhôm Xingfa XFA-55 của nhà máy nhôm XINGFAWINDOW là một cái tên luôn được quý đại lý, quý khách hàng ưu ái lựa chọn bởi chất lượng cao cùng với giá thành hợp lý. Hệ nhôm xingfa XFA-55 được sử dụng phổ biến làm hệ cửa đi, cửa sổ, cửa lùa cho các công trình nhà ở dân dụng hoặc nhà ở hiện đại. Hệ nhôm Xingfa XFA-55 sở hữu những tính năng nổi bật như: cách âm, cách nhiệt, kín gió, kín nước, chịu lực tốt, giúp tạo ra không gian vừa an toàn, yên tĩnh và thoải mái trong ngôi nhà của bạn.",
+                         "contentPlain":  "CÁC LOẠI CỬA PHỔ BIẾN CỦA HỆ XFA-55\nHệ nhôm XFA-55 của NHÔM XINGFAWINDOW là một cái tên luôn được quý đại lý, quý khách hàng ưu ái lựa chọn bởi chất lượng cao cùng với giá thành hợp lý. Hệ nhôm XFA-55 được sử dụng phổ biến làm hệ cửa đi, cửa sổ, cửa lùa cho các công trình nhà ở dân dụng hoặc nhà ở hiện đại. Được ứng dụng rộng rãi qua các loại cửa như",
+                         "specifications":  [
+                                                {
+                                                    "label":  "Bá» rá»™ng khung nhÃ´m",
+                                                    "value":  "55 mm"
+                                                },
+                                                {
+                                                    "label":  "Chiá»u dÃ y nhÃ´m",
+                                                    "value":  "1.2 mm - 2.0mm"
+                                                },
+                                                {
+                                                    "label":  "Chiá»u dÃ y kÃ­nh",
+                                                    "value":  "6 - 10 mm"
+                                                }
+                                            ],
+                         "advantages":  [
+                                            {
+                                                "title":  "Cách âm",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Cách nhiệt",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Kín gió",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Kín nước",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "An toàn",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Màu sắc",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Đen",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Nâu",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Trắng",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Vân gỗ",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Xám",
+                                                "description":  ""
+                                            }
+                                        ],
+                         "applications":  [
+
+                                          ],
+                         "seoTitle":  "Hệ nhôm Xingfa Window XFA-55",
+                         "seoDescription":  "Sản phẩm Nhôm XFA-55 được Nhà Máy Nhôm Xingfa Window sản xuất, bắt kịp xu hướng thiết kế hiện đại ngày nay trong ngành sản xuất thi công cửa nhôm kính cao cấp. Nhôm Xingfa Window hệ XFA-55 được sản xuất theo quy trình khép kín theo tiểu chuẩn ISO 9001:201",
+                         "ogImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20231008/vpmm-xfa-55.png",
+                         "sourceUrl":  "https://nhomxingfawindow.com/xfa-55",
+                         "status":  "published",
+                         "isFeatured":  false
+                     },
+                     {
+                         "title":  "Hệ XFA 55 Vát Cạnh",
+                         "slug":  "xfa-55-vat-canh",
+                         "categoryKey":  "xfa",
+                         "featuredImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20231008/exws-xfa-55-vat-canh.png",
+                         "galleryUrls":  [
+
+                                         ],
+                         "shortDescription":  "Nhôm hệ vát cạnh XFA 55 là một dòng sản phẩm nhôm phổ biến, được biết đến với kích thước thanh profile bản rộng 55 mm và thanh cánh cửa nhôm xingfa được thiết kế liền sập, vát cạnh. Điều này tạo nên cấu trúc hộp với độ dày từ 1.2 mm. Hệ nhôm XFA 55 vát cạnh được ứng dụng rộng rãi, từ cửa đi, cửa sổ mở quay, đến cửa trượt và vách kính, tuỳ thuộc vào nhu cầu sử dụng. Thanh nhôm xingfa có các đường vát cạnh tăng tính thẩm mỹ, hạn chế tối đa bụi bẩn và nước bám vào các khe cửa giúp dễ dàng vệ sinh. Vật liệu được sử dụng rộng khắp cho các công trình nhà dân dụng, cao ốc và văn phòng.",
+                         "contentPlain":  "Nhôm Hệ Vát Cạnh XFA 55 là gì? Khái niệm, cấu tạo của Nhôm hệ vát cạnh XFA 55\nCửa đi hệ vát cạnh XFA55 thế hệ mới là sự kết tinh sáng tạo trong thiết kế kiến trúc. Thanh nhôm có các đường vát cạnh tăng tính thẩm mỹ, hạn chế tối đa bụi bẩn và nước bám vào các khe cửa giúp dễ dàng vệ sinh. Vật liệu được sử dụng rộng khắp cho các công trình nhà dân dụng, cao ốc và văn phòng.\nCác Loại Cửa Sử Dụng Phổ Biến Hệ Nhôm Vát Cạnh XFA 55:\nCửa nhôm hệ 55 vát cạnh được chia làm nhiều loại khác nhau dựa trên các yếu tố sau:\nCửa đi mở quay hệ nhôm vát cạnh XFA 55\nCửa sổ mở quay hệ nhôm vát cạnh XFA 55\nCỬA LÙA NHÔM HỆ VÁT CẠNH XFA 55\nCấu tạo:\nCác thanh profile nhôm làm từ nhôm hệ 55. Vật liệu nhôm đạt tiêu chuẩn chất lượng cao khi có khả năng chống chịu lực và chống rỉ sét tốt.\nMỗi một thanh profile nhôm được lắp đặt tại vị trí khung bao và khung cánh có độ dày tương đương khoảng 1.2mm.\nBên ngoài thanh profile phủ lớp nước sơn tĩnh điện chống rỉ sét. Lớp nước sơn mang đến vẻ đẹp đa dạng cho mẫu cửa kính với nhiều gam màu thời thượng như: Màu trắng sứ, nâu sần và màu vân gõ.\nVật liệu kính được sử dụng bao gồm kính cường lực dày từ 6mm đến 12mm, kính dán an toàn 2 mặt dày từ 6.38mm đến 12.38 mm và loại kính hộp.\nPhụ kiện cửa kính được sản xuất đồng bộ nhập khẩu chính hãng Kinlong 100%.\nHệ thống gioăng cao su kép đảm bảo độ kín khít tuyệt đối.\nƯu điểm của Nhôm hệ vát cạnh XFA 55 :\nSản phẩm nhôm hệ vát cạnh 55 mang lại nhiều điểm nổi bật có chất lượng khá tốt , may mắn khi thừa hưởng mọi ưu điểm của dòng sản phẩm nhôm tiêu chuẩn cùng với nhiều cải tiến đột phá hơn, cụ thể như sau:\nCấu tạo đặc biệt: Cửa nhôm hệ vát cạnh XFA 55 được cấu tạo bao gồm thanh nhôm profile nhôm, kính, phụ kiện kim khí, gioăng cao su , keo silicone, màu sắc đa dạng,… Tất cả đều là những nguyên liệu có hiệu quả sử dụng tốt, đảm bảo tính thẩm mỹ cho cả công trình.\nChống ồn, chịu nhiệt tốt: Vì được tạo nên từ các khoang trống kết hợp cùng với hệ gioăng cao su và sử dụng phương pháp ghép góc tiên tiến và hiện đại nên nhôm hệ vát cạnh có độ bền cực cao, đảm bảo khả năng chống ồn và chịu nhiệt tốt.\nKín nước và kín khí: Thanh profile được thiết kế có xu hướng dẫn nước hướng ra bên ngoài, giúp ngăn nước chảy vào bên trong tối đa. Các thanh profile nhôm được thiết kế kiện toàn lắp ghép tương thích với nhau giúp giảm thiểu tiếng ồn , hạn chế truyền nhiệt giữa bên trong và bên ngoài nhà.\nAn toàn, thuận tiện: Trọng lượng nhôm hệ vát cạnh khá nhẹ nên có thể giảm tải trọng khá nhiều cho công trình. Hơn hết, độ cứng cao nên giữ cho công trình luôn trong trạng thái được bảo vệ an toàn trước những biến động từ bên ngoài.\nHiệu quả kinh tế: Với lợi thế vát cạnh nên sẽ tiết kiệm được nhiều nguyên liệu nhôm hơn so với các loại nhôm hệ khác. Đặc biệt, bề mặt nhôm được sơn tĩnh điện với công nghệ hiện đại sẽ luôn đảm bảo giữ được chất lượng tốt nhất, từ đó có thể sử dụng nhiều năm liền mà vẫn chưa có dấu hiệu cần thay thế.",
+                         "specifications":  [
+                                                {
+                                                    "label":  "Bá» rá»™ng khung nhÃ´m",
+                                                    "value":  "55 mm"
+                                                },
+                                                {
+                                                    "label":  "Chiá»u dÃ y nhÃ´m",
+                                                    "value":  "1.2 mm"
+                                                },
+                                                {
+                                                    "label":  "Chiá»u dÃ y kÃ­nh",
+                                                    "value":  "6 - 12 mm"
+                                                }
+                                            ],
+                         "advantages":  [
+                                            {
+                                                "title":  "An toàn",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Cách âm",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Cách nhiệt",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Kín gió",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Kín nước",
+                                                "description":  ""
+                                            }
+                                        ],
+                         "applications":  [
+
+                                          ],
+                         "seoTitle":  "Hệ XFA 55 vát cạnh",
+                         "seoDescription":  "Nhôm hệ vát cạnh XFA 55 là một dòng sản phẩm nhôm phổ biến, được biết đến với kích thước thanh profile bản rộng 55 mm và thanh cánh cửa nhôm xingfa được thiết kế liền sập, vát cạnh. Điều này tạo nên cấu trúc hộp với độ dày từ 1.2 mm. Hệ nhôm XFA 55 vát cạ",
+                         "ogImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20231008/exws-xfa-55-vat-canh.png",
+                         "sourceUrl":  "https://nhomxingfawindow.com/xfa-55-vat-canh",
+                         "status":  "published",
+                         "isFeatured":  false
+                     },
+                     {
+                         "title":  "Hệ XFA63",
+                         "slug":  "xfa-63",
+                         "categoryKey":  "xfa",
+                         "featuredImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20231008/ikzq-xfa-63.png",
+                         "galleryUrls":  [
+
+                                         ],
+                         "shortDescription":  "Cửa đi xếp trượt nhiều cánh nhôm Xingfa nhập khẩu được ưu tiên thiết kế cho các công trình kiến trúc hiện đại pha nét cổ điển. Kết hợp cùng kính cường lực trong suốt tạo không gian thông thoáng, đón ánh sáng tối đa...",
+                         "contentPlain":  "Giới thiệu\nCửa đi xếp trượt hệ XFA63 là một sự kết hợp thông minh - tối ưu hoá của cửa đi - cửa lùa và được khoác lên mình những màu sắc sang trọng bằng hệ thống sơn tĩnh điện Nordson (Mỹ) được cấp giấy chứng nhận đủ điều kiện bảo hành sơn lên đến 25 năm của tập đoàn Akzonobel (Hà Lan). Giúp mở rộng không gian giao tiếp giữa trong nhà và ngoài trời.\nCửa đi xếp trượt là loại cửa có nhiều cánh, có kiểu mở là mở quay cánh và xếp chúng trượt trên ray dồn vào góc tường. Bên cạnh đó loại cửa này còn được gọi là cửa xếp gấp do dễ dàng thu gọn và mở rộng không gian.\nCửa đi xếp trượt chia làm 3 loại: cửa nhôm xếp trượt, cửa kính xếp trượt, vách kính xếp trượt.\nĐặc điểm của cửa đi xếp trượt\nSự kết hợp giữa cấu trúc hiện đại và nét thẩm mỹ : Với cấu trúc nhiều cánh được mở bằng cách xếp trượt và xếp trên ray, ngoài ra các cánh có thể mở quay giúp cho cửa mở được diện tích lớn. Thích hợp với những ngôi nhà có thiết kế cửa đi rộng như cửa đi ra vườn, cửa đi ra hồ bơi…\nTính thẩm mỹ cao : Ngưỡng cửa thấp, gần như phẳng do cơ cấu trượt thông minh được thiết kế phía trên và đặt gọn trong thanh trượt, loại bỏ được hoàn toàn bụi bẩn cho cơ cấu trượt.\nHoạt động nhẹ nhàng : Chế tạo từ hệ Profile nhôm định hình với hệ phụ kiện kim khí được thiết kế chuyên dụng đảm bảo cho cửa hoạt động nhẹ nhàng, liên tục. Số lượng cánh tối đa: 7 cánh.\nĐa dạng mẫu mã : Đa dạng kích thước, kiểu dáng phù hợp với nhiều kiểu kiến trúc.Với 2 kiểu mở đặc biệt trên cùng một hệ cửa (xếp trượt và quay) mang lại nhiều sự lựa chọn về không gian mở cho người sử dụng.\nTính cách âm, cách nhiệt : Sử dụng hệ gioăng kép đảm bảo độ kín khít, cách âm, cách nhiệt tốt.\nTính kinh tế : Sử dụng cửa hợp kim là giải pháp tốt nhất trong việc tiết kiệm năng lượng cho các tòa nhà cao tầng có nhiều mặt tiếp xúc trực tiếp với ánh nắng mặt trời.\nThuận tiện : Thuận tiện trong công việc thi công và lắp đặt chắc chắn, an toàn mang đến một sản phẩm hoàn thiện cả về thiết kế và độ bền. Dễ lau chùi, dễ bảo dưỡng.\nD iện tích lớn : Đối với những trường hợp cửa ra vào rộng như cửa ra ban công, cửa mặt tiền hoặc cửa vào Gara auto… thiết kế cửa đi xếp trượt là một giải pháp tối ưu. Bởi khi cửa mở số cánh được xếp sang một bên, không bị cồng kềnh.\nĐem lại nhiều lựa chọn về không gian mở : Cửa đi xếp trượt có thể lắp đặt nhiều cánh do đó khi chủ nhân muốn có một không gian riêng tư hơn hay muốn mở rộng tầm nhìn có thể điều chỉnh kiểu mở (xếp trượt hoặc mở quay)\nCửa sử dụng hệ phụ kiện đồng bộ : Chế tạo từ hệ profile nhôm định hình có kích thước lớn, vững chắc với hệ phụ kiện kim khí đồng bộ được thiết kế chuyên dụng đảm bảo cho cửa hoạt động nhẹ nhàng, liên tục.\nVật liệu cấu thành:\nThanh profile nhôm định hình (khuôn cửa, khung cánh).\nThép hộp gia cường.\nHệ gioăng kép đảm bảo độ kín khít cao.\nKính: có thể sử dụng kính đơn hoặc hộp kính với các loại kính an toàn, cường lực.\nHệ phụ kiện kim khí: thanh chốt đa điểm, bản lề 3D (điều chỉnh theo 3 chiều), tay nắm, khóa,…\nỨng dụng:\nViệc sử dụng cửa xếp trượt ngày đang đang trở thành trào lưu cho mọi công trình từ dân dụng đến nhà phố.\nCửa đi xếp trượt là giải pháp tốt nhất trong việc tiết kiệm năng lượng cho tòa nhà cao tầng có nhiều mặt tiếp xúc trực tiếp với ánh nắng mặt trời.",
+                         "specifications":  [
+                                                {
+                                                    "label":  "Bá» rá»™ng khung nhÃ´m",
+                                                    "value":  "63 mm"
+                                                },
+                                                {
+                                                    "label":  "Chiá»u dÃ y nhÃ´m",
+                                                    "value":  "1.5 mm"
+                                                },
+                                                {
+                                                    "label":  "Chiá»u dÃ y kÃ­nh",
+                                                    "value":  "6 - 21mm"
+                                                }
+                                            ],
+                         "advantages":  [
+                                            {
+                                                "title":  "Cách âm",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Cách nhiệt",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Kín gió",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Kín nước",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "An toàn",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Màu sắc",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Đen",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Nâu",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Trắng",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Vân gỗ",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Xám",
+                                                "description":  ""
+                                            }
+                                        ],
+                         "applications":  [
+
+                                          ],
+                         "seoTitle":  "Nhôm Hệ XFA63",
+                         "seoDescription":  "",
+                         "ogImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20231008/ikzq-xfa-63.png",
+                         "sourceUrl":  "https://nhomxingfawindow.com/xfa-63",
+                         "status":  "published",
+                         "isFeatured":  false
+                     },
+                     {
+                         "title":  "Hệ Mặt Dựng XFA 65",
+                         "slug":  "xfa-65",
+                         "categoryKey":  "xfa",
+                         "featuredImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20231008/jkvn-xfa-65.png",
+                         "galleryUrls":  [
+
+                                         ],
+                         "shortDescription":  "Nhôm xingfa hệ mặt dựng XFA 65 hay còn được gọi là vách kính mặt dựng, tường kính… Thường được sử dụng cho các tòa nhà, cao ốc, văn phòng, trung tâm thương mại,… Nó thay thế cho những bức tường gạch tô xi-măng hay sơn màu. Các công trình cao tầng xây dựng theo kiến trúc hiện đại ngày nay đều sử dụng hệ mặt dựng làm mặt tiền và bao quanh công trình. Việc lựa chọn mặt dựng cho công trình kiến trúc đáp ứng các yếu tố về thẩm mỹ, kỹ thuật, tính năng và mang lại nhiều lợi ích khi sử dụng.",
+                         "contentPlain":  "Giới thiệu\nNhôm xingfa hệ 65 là thanh nhôm xingfa profile chỉ dùng để sản xuất lắp ghép ra các loại vách kính mặt dựng, tường kính. Mặt cắt của dòng nhôm này có bề rộng lớn nhất là 65mm. Nên tên gọi của nó được đặt theo bề rộng của nhôm. Sản phẩm có khả năng tạo hình linh hoạt. Thiết kế với nhiều kiểu dáng khác nhau, phù hợp với nhiều loại kiến trúc mặt tiền như gấp khúc, lượn sóng, uốn cong. Tại Việt Nam, dòng nhôm này thường được ứng dụng vào làm vách ngăn mặt dựng lớn.\nVách kính mặt dựng nhôm Xingfa lộ đố\nVách kính mặt dựng lộ đố nhôm Xingfa 65 thích hợp sử dụng cho các công trình có kiến trúc hiện đại. Với thiết kế này, các thanh đố nhôm xingfa, nẹp ngang, nẹp dọc sẽ được lộ ra trên bề mặt.\n\"\u003e\nVách kính mặt dựng nhôm Xingfa lộ đố\nTạo vẻ ngoài chắc chắn, khỏe khoắn cho công trình. Đứng ở ngoài thì bạn có thể nhìn thấy các thanh nhôm được nâng đỡ lấy kính. Vách kính mặt dựng nhôm Xingfa 65 thích hợp sử dụng cho các công trình có kiến trúc hiện đại như: các tòa nhà cao tầng, trung tâm thương mại…\nVách kính mặt dựng nhôm Xingfa giấu đố\nKhi nhìn lên bức tường thì có độ phẳng, thẳng từ trên xuống dưới toàn bộ là kính. Các thanh nhôm đã được thiết kế ở trong ngôi nhà. Chính vì vậy ngay cả cửa sổ nhà bạn cũng khó có thể phát hiện ra. Tải trọng nhẹ, khả năng chịu lực tốt và độ bền cao.\nVách kính mặt dựng nhôm Xingfa giấu đố\nTạo nét đẹp hiện đại cho tòa nhà khi nhìn từ bên ngoài. Cũng như không gian mở, tầm view mở rộng khi nhìn từ bên trong.\nƯu điểm\nVới một loạt các tính năng vượt trội và ưu điểm mà nhôm hệ mặt dựng XFA 65 mang lại, không khó để hiểu tại sao sản phẩm này luôn được đánh giá cao và lựa chọn ưu tiên của đông đảo khách hàng. Hãy cùng tìm hiểu về những tính năng nổi bật của nhôm xingfa hệ mặt dựng XFA 65, đóng vai trò quan trọng trong việc làm nổi bật các công trình kiến trúc và mang lại sự thoải mái, tiện nghi cho người sử dụng.\nNhẹ, bền bỉ và cứng cáp: Do bên trong của nhôm hệ XFA65 có nhiều khoảng trống cùng với các đường gân so le. Vì vậy, dòng nhôm này không chỉ nhẹ mà còn bền bỉ và cứng cáp hơn so với các loại vật liệu khác.\nTuổi thọ cao, tiết kiệm chi phí: Nhôm hệ XFA65 thích hợp sử dụng trong mọi điều kiện môi trường, kể cả ở những nơi có khí hậu thất thường như Việt Nam. Nhôm hệ XFA65 có khả năng chịu nước tốt hơn so với gỗ, độ bền trước nắng gió cao hơn so với của nhựa và rất khó bị oxy hóa, lão hóa hay ố vàng khi tiếp xúc với mưa gió, ánh nắng mặt trời.\nĐặc biệt, cấu trúc của nhôm hệ XFA65 bền bỉ, chắc chắn, có khả năng chịu lực và va đập tốt nên độ bền, tuổi thọ rất cao. Ưu điểm vượt trội này sẽ giúp khách hàng tiết kiệm được chi phí sửa chữa hay thay mới.\nCách âm, cách nhiệt tốt: Do cấu trúc bên trong của nhôm hệ XFA65 là rỗng nên một phần âm thanh khi di chuyển tới vách kính sẽ bị phản xạ lại. Cấu trúc đặc biệt này cũng giúp khả năng cách nhiệt của nhôm hệ XFA65 tốt hơn và có trọng lượng nhẹ hơn.\nĐa dạng về màu sắc: Các màu sắc phổ biến của dòng nhôm hệ XFA65 gồm: Đen, nâu, trắng, vân gỗ, xám.\nĐộ an toàn cao: Ngoài kết cấu chắc chắn và bền bỉ thì nhôm xingfa hệ XFA65 còn có đặc tính khó nóng chảy, không bắt lửa nên hạn chế các rủi ro khi không may xảy ra cháy nổ; giảm nguy cơ gió đập do mở trượt có độ an toàn cao; chịu được áp lực gió lớn lên tới 1600 pascal.\nGóp phần bảo vệ môi trường: Khi không sử dụng, nhôm xingfa hệ XFA65 có thể được tái chế nên góp phần bảo vệ môi trường. Không chỉ vậy, quá trình tái chế nhôm cũng tốn ít năng lượng và giảm chất thải khí nhà kính.",
+                         "specifications":  [
+                                                {
+                                                    "label":  "Bá» rá»™ng khung nhÃ´m",
+                                                    "value":  "65 mm"
+                                                },
+                                                {
+                                                    "label":  "Chiá»u dÃ y nhÃ´m",
+                                                    "value":  "2.3 mm"
+                                                },
+                                                {
+                                                    "label":  "Chiá»u dÃ y kÃ­nh",
+                                                    "value":  "12 mm - 21mm"
+                                                }
+                                            ],
+                         "advantages":  [
+                                            {
+                                                "title":  "An toàn",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Cách âm",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Cách nhiệt",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Kín gió",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Kín nước",
+                                                "description":  ""
+                                            }
+                                        ],
+                         "applications":  [
+
+                                          ],
+                         "seoTitle":  "Mặt dựng Hệ XFA65",
+                         "seoDescription":  "Nhôm xingfa hệ mặt dựng XFA 65 hay còn được gọi là vách kính mặt dựng, tường kính… Thường được sử dụng cho các tòa nhà, cao ốc, văn phòng, trung tâm thương mại,… Nó thay thế cho những bức tường gạch tô xi-măng hay sơn màu. Các công trình cao tầng xây dựng",
+                         "ogImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20231008/jkvn-xfa-65.png",
+                         "sourceUrl":  "https://nhomxingfawindow.com/xfa-65",
+                         "status":  "published",
+                         "isFeatured":  false
+                     },
+                     {
+                         "title":  "Hệ XFA 93",
+                         "slug":  "xfa-93",
+                         "categoryKey":  "xfa",
+                         "featuredImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20231008/oykz-xfa-93.png",
+                         "galleryUrls":  [
+
+                                         ],
+                         "shortDescription":  "Hệ cửa đi trượt, lùa XFA 93 loại cửa này tối ưu nhất cho những không gian có diện tích nhỏ hẹp, thiếu ánh sáng từ thiên nhiên. Khi đóng mở không ảnh hưởng đến không gian và diện tích sử dụng của căn phòng. Có tính thẩm mỹ cao cửa sổ lùa xingfawindow hệ 93 rộng, sang trọng giúp mở rộng không gian và tạo được tầm nhìn bao quát cho căn phòng.",
+                         "contentPlain":  "GIỚI THIỆU CỬA ĐI TRƯỢT HỆ XFA93\nCửa đi trượt hệ XFA93 mang kiểu dáng sang trọng của thời đại mới, tiết kiệm không gian và sự an toàn cho ngôi nhà bạn. Có nhiều màu sắc đa dạng dễ lựa chọn như trắng sữa, màu xám, đen,... . Với kiểu dáng sang trọng, phong cách hiện đại, thích hợp với nhiều loại công trình dự án nhà ở, chung cư, villa biển và biệt thự phố\nCÁC LOẠI CỬA SỬ DỤNG PHỔ BIẾN CỦA HỆ XFA93\nCửa sổ, cửa đi trượt 2 cánh\nCửa lùa 2 cánh ứng dụng nhiều trong các không gian nhỏ hẹp tận dụng không gian và nguồn ánh sáng tự nhiên.Cửa vận hành theo nguyên lý kéo trượt cánh cửa sang 2 bên hoặc đẩy vào giữa, rất tiện lợi, dễ dàng sử dụng và có thể mở được tối đa 2/3 diện tích cửa.",
+                         "specifications":  [
+                                                {
+                                                    "label":  "Bá» rá»™ng khung nhÃ´m",
+                                                    "value":  "93 mm"
+                                                },
+                                                {
+                                                    "label":  "Chiá»u dÃ y nhÃ´m",
+                                                    "value":  "1.6 mm - 2.0 mm"
+                                                },
+                                                {
+                                                    "label":  "Chiá»u dÃ y kÃ­nh",
+                                                    "value":  "6 mm - 12 mm"
+                                                }
+                                            ],
+                         "advantages":  [
+                                            {
+                                                "title":  "An toàn",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Cách âm",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Cách nhiệt",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Kín gió",
+                                                "description":  ""
+                                            },
+                                            {
+                                                "title":  "Kín nước",
+                                                "description":  ""
+                                            }
+                                        ],
+                         "applications":  [
+
+                                          ],
+                         "seoTitle":  "Cửa đi lùa 4 cánh hệ XFA93",
+                         "seoDescription":  "Cửa lùa (còn gọi là cửa truợt) là sản phẩm cửa thiết kế thông minh được mở bằng cách trượt trên đường thanh ray cửa. Tại NHÀ MÁY XINGFAWINDOW, cửa nhôm XFA hệ 93 có nhiều mẫu bao gồm: cửa lùa 2 cánh hoặc 4 cánh,...",
+                         "ogImageUrl":  "https://nhomxingfawindow.com/upload/assets/fm/20231008/oykz-xfa-93.png",
+                         "sourceUrl":  "https://nhomxingfawindow.com/xfa-93",
+                         "status":  "published",
+                         "isFeatured":  false
+                     }
+                 ],
+    "notes":  [
+                  "categoryKey can be mapped to ProductCategories slug: xfa | kawin",
+                  "contentPlain should be converted to richText before final import",
+                  "featuredImage/ogImage fields require media upload IDs in Payload"
+              ]
+}

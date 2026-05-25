@@ -1,14 +1,14 @@
 import React from 'react'
 
 const defaultLabels = {
-  plural: 'Docs',
-  singular: 'Doc',
+  plural: 'bản ghi',
+  singular: 'bản ghi',
 }
 
 const defaultCollectionLabels = {
   posts: {
-    plural: 'Posts',
-    singular: 'Post',
+    plural: 'tin tức',
+    singular: 'tin tức',
   },
 }
 
@@ -46,10 +46,10 @@ export const PageRange: React.FC<{
 
   return (
     <div className={[className, 'font-semibold'].filter(Boolean).join(' ')}>
-      {(typeof totalDocs === 'undefined' || totalDocs === 0) && 'Search produced no results.'}
+      {(typeof totalDocs === 'undefined' || totalDocs === 0) && 'Không có kết quả phù hợp.'}
       {typeof totalDocs !== 'undefined' &&
         totalDocs > 0 &&
-        `Showing ${indexStart}${indexStart > 0 ? ` - ${indexEnd}` : ''} of ${totalDocs} ${
+        `Hiển thị ${indexStart}${indexStart > 0 ? ` - ${indexEnd}` : ''} trong ${totalDocs} ${
           totalDocs > 1 ? plural : singular
         }`}
     </div>

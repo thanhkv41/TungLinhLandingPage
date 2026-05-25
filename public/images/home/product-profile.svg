@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 620" role="img" aria-label="Aluminium profile placeholder">
+  <rect width="520" height="620" fill="#f5f6f7"/>
+  <path d="M0 430 L520 350 L520 620 L0 620 Z" fill="#e51e31"/>
+  <path d="M0 500 L520 420 L520 620 L0 620 Z" fill="#0d5975"/>
+  <g transform="translate(150 90)">
+    <rect x="35" y="0" width="150" height="380" rx="8" fill="#d6dde0"/>
+    <rect x="62" y="30" width="96" height="320" fill="#eef4f6"/>
+    <rect x="82" y="55" width="56" height="270" fill="#b7c7ce"/>
+    <path d="M0 360 H220 L178 430 H42 Z" fill="#b9c4c9"/>
+    <g fill="#111827"><rect x="52" y="80" width="20" height="215"/><rect x="148" y="80" width="20" height="215"/></g>
+  </g>
+  <rect x="206" y="32" width="108" height="28" rx="14" fill="#f21d2f"/>
+</svg>

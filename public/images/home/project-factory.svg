@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-label="Factory project placeholder">
+  <rect width="760" height="520" fill="#dfe9ed"/>
+  <rect y="370" width="760" height="150" fill="#b9c9bd"/>
+  <path d="M70 235 L400 160 L660 250 L330 335 Z" fill="#f4f7f8"/>
+  <path d="M110 220 L400 150 L625 232 L335 305 Z" fill="#75b7c4"/>
+  <path d="M330 335 L660 250 L660 340 L330 430 Z" fill="#d9e2e5"/>
+  <path d="M70 235 L330 335 L330 430 L70 320 Z" fill="#cbd7dc"/>
+  <g fill="#1f3440"><rect x="390" y="310" width="48" height="72"/><rect x="470" y="290" width="48" height="72"/><rect x="550" y="270" width="48" height="72"/></g>
+</svg>

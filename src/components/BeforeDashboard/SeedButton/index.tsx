@@ -7,9 +7,9 @@ import './index.scss'
 
 const SuccessMessage: React.FC = () => (
   <div>
-    Database seeded! You can now{' '}
+    Đã tạo dữ liệu mẫu. Bạn có thể{' '}
     <a target="_blank" href="/">
-      visit your website
+      xem website
     </a>
   </div>
 )
@@ -24,15 +24,15 @@ export const SeedButton: React.FC = () => {
       e.preventDefault()
 
       if (seeded) {
-        toast.info('Database already seeded.')
+        toast.info('Dữ liệu mẫu đã được tạo trước đó.')
         return
       }
       if (loading) {
-        toast.info('Seeding already in progress.')
+        toast.info('Đang tạo dữ liệu mẫu.')
         return
       }
       if (error) {
-        toast.error(`An error occurred, please refresh and try again.`)
+        toast.error('Có lỗi xảy ra, vui lòng tải lại trang và thử lại.')
         return
       }
 
@@ -48,7 +48,7 @@ export const SeedButton: React.FC = () => {
                     resolve(true)
                     setSeeded(true)
                   } else {
-                    reject('An error occurred while seeding.')
+                    reject('Có lỗi khi tạo dữ liệu mẫu.')
                   }
                 })
                 .catch((error) => {
@@ -59,9 +59,9 @@ export const SeedButton: React.FC = () => {
             }
           }),
           {
-            loading: 'Seeding with data....',
+            loading: 'Đang tạo dữ liệu mẫu...',
             success: <SuccessMessage />,
-            error: 'An error occurred while seeding.',
+            error: 'Có lỗi khi tạo dữ liệu mẫu.',
           },
         )
       } catch (err) {
@@ -73,14 +73,14 @@ export const SeedButton: React.FC = () => {
   )
 
   let message = ''
-  if (loading) message = ' (seeding...)'
-  if (seeded) message = ' (done!)'
-  if (error) message = ` (error: ${error})`
+  if (loading) message = ' (đang tạo...)'
+  if (seeded) message = ' (xong)'
+  if (error) message = ` (lỗi: ${error})`
 
   return (
     <Fragment>
       <button className="seedButton" onClick={handleClick}>
-        Seed your database
+        Tạo dữ liệu mẫu
       </button>
       {message}
     </Fragment>

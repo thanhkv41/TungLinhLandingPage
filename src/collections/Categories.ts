@@ -6,6 +6,10 @@ import { slugField } from 'payload'
 
 export const Categories: CollectionConfig = {
   slug: 'categories',
+  labels: {
+    singular: 'Danh mục mẫu',
+    plural: 'Danh mục mẫu',
+  },
   access: {
     create: authenticated,
     delete: authenticated,
@@ -13,12 +17,15 @@ export const Categories: CollectionConfig = {
     update: authenticated,
   },
   admin: {
+    group: 'Nội dung',
+    hidden: true,
     useAsTitle: 'title',
   },
   fields: [
     {
       name: 'title',
       type: 'text',
+      label: 'Tên danh mục',
       required: true,
     },
     slugField({

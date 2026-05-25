@@ -13,6 +13,8 @@ import { generateMeta } from '@/utilities/generateMeta'
 import PageClient from './page.client'
 import { LivePreviewListener } from '@/components/LivePreviewListener'
 
+const reservedStaticRoutes = new Set(['gioi-thieu', 'san-pham', 'du-an', 'tin-tuc', 'tai-lieu', 'lien-he'])
+
 export async function generateStaticParams() {
   const payload = await getPayload({ config: configPromise })
   const pages = await payload.find({
@@ -28,7 +30,7 @@ export async function generateStaticParams() {
 
   const params = pages.docs
     ?.filter((doc) => {
-      return doc.slug !== 'home'
+      return doc.slug !== 'home' && !reservedStaticRoutes.has(doc.slug || '')
     })
     .map(({ slug }) => {
       return { slug }

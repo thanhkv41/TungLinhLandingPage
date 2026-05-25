@@ -17,22 +17,22 @@ export const hero: Field = {
       name: 'type',
       type: 'select',
       defaultValue: 'lowImpact',
-      label: 'Type',
+      label: 'Kiểu hiển thị',
       options: [
         {
-          label: 'None',
+          label: 'Không hiển thị',
           value: 'none',
         },
         {
-          label: 'High Impact',
+          label: 'Nổi bật lớn',
           value: 'highImpact',
         },
         {
-          label: 'Medium Impact',
+          label: 'Nổi bật vừa',
           value: 'mediumImpact',
         },
         {
-          label: 'Low Impact',
+          label: 'Đơn giản',
           value: 'lowImpact',
         },
       ],
@@ -65,6 +65,7 @@ export const hero: Field = {
         condition: (_, { type } = {}) => ['highImpact', 'mediumImpact'].includes(type),
       },
       relationTo: 'media',
+      label: 'Hình ảnh',
       required: true,
     },
   ],

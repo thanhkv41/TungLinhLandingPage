@@ -14,7 +14,7 @@ import { Page, Post } from '@/payload-types'
 import { getServerSideURL } from '@/utilities/getURL'
 
 const generateTitle: GenerateTitle<Post | Page> = ({ doc }) => {
-  return doc?.title ? `${doc.title} | Payload Website Template` : 'Payload Website Template'
+  return doc?.title ? `${doc.title} | Tùng Linh Company` : 'Tùng Linh Company'
 }
 
 const generateURL: GenerateURL<Post | Page> = ({ doc }) => {
@@ -27,6 +27,14 @@ export const plugins: Plugin[] = [
   redirectsPlugin({
     collections: ['pages', 'posts'],
     overrides: {
+      labels: {
+        singular: 'Chuyển hướng',
+        plural: 'Chuyển hướng',
+      },
+      admin: {
+        group: 'Hệ thống',
+        hidden: true,
+      },
       // @ts-expect-error - This is a valid override, mapped fields don't resolve to the same type
       fields: ({ defaultFields }) => {
         return defaultFields.map((field) => {
@@ -34,7 +42,7 @@ export const plugins: Plugin[] = [
             return {
               ...field,
               admin: {
-                description: 'You will need to rebuild the website when changing this field.',
+                description: 'Cần build lại website sau khi thay đổi trường này.',
               },
             }
           }
@@ -59,6 +67,14 @@ export const plugins: Plugin[] = [
       payment: false,
     },
     formOverrides: {
+      labels: {
+        singular: 'Biểu mẫu',
+        plural: 'Biểu mẫu',
+      },
+      admin: {
+        group: 'Hệ thống',
+        hidden: true,
+      },
       fields: ({ defaultFields }) => {
         return defaultFields.map((field) => {
           if ('name' in field && field.name === 'confirmationMessage') {
@@ -79,11 +95,30 @@ export const plugins: Plugin[] = [
         })
       },
     },
+    formSubmissionOverrides: {
+      labels: {
+        singular: 'Dữ liệu biểu mẫu',
+        plural: 'Dữ liệu biểu mẫu',
+      },
+      admin: {
+        group: 'Hệ thống',
+        hidden: true,
+      },
+    },
   }),
   searchPlugin({
     collections: ['posts'],
     beforeSync: beforeSyncWithSearch,
     searchOverrides: {
+      labels: {
+        singular: 'Kết quả tìm kiếm',
+        plural: 'Kết quả tìm kiếm',
+      },
+      admin: {
+        description:
+          'Dữ liệu tìm kiếm được tạo tự động từ nội dung trong CMS. Không cần chỉnh sửa thủ công.',
+        hidden: true,
+      },
       fields: ({ defaultFields }) => {
         return [...defaultFields, ...searchFields]
       },

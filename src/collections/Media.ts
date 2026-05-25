@@ -16,6 +16,10 @@ const dirname = path.dirname(filename)
 
 export const Media: CollectionConfig = {
   slug: 'media',
+  labels: {
+    singular: 'Tệp media',
+    plural: 'Thư viện media',
+  },
   folders: true,
   access: {
     create: authenticated,
@@ -23,16 +27,27 @@ export const Media: CollectionConfig = {
     read: anyone,
     update: authenticated,
   },
+  admin: {
+    group: 'Tệp tin',
+    useAsTitle: 'alt',
+    defaultColumns: ['alt', 'filename', 'mimeType', 'updatedAt'],
+  },
   fields: [
     {
       name: 'alt',
       type: 'text',
+      label: 'Văn bản thay thế',
       //required: true,
     },
     {
       name: 'caption',
       type: 'richText',
+      label: 'Chú thích',
       editor: lexicalEditor({
+        admin: {
+          // Override placeholder to avoid broken Vietnamese diacritics from default locale text.
+          placeholder: 'Bắt đầu gõ hoặc nhấn "/" để gọi lệnh...',
+        },
         features: ({ rootFeatures }) => {
           return [...rootFeatures, FixedToolbarFeature(), InlineToolbarFeature()]
         },

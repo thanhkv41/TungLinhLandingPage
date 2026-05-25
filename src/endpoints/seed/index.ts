@@ -50,7 +50,7 @@ export const seed = async ({
         slug: global,
         data: {
           navItems: [],
-        },
+        } as any,
         depth: 0,
         context: {
           disableRevalidate: true,
@@ -175,21 +175,21 @@ export const seed = async ({
     collection: 'posts',
     data: {
       relatedPosts: [post2Doc.id, post3Doc.id],
-    },
+    } as any,
   })
   await payload.update({
     id: post2Doc.id,
     collection: 'posts',
     data: {
       relatedPosts: [post1Doc.id, post3Doc.id],
-    },
+    } as any,
   })
   await payload.update({
     id: post3Doc.id,
     collection: 'posts',
     data: {
       relatedPosts: [post1Doc.id, post2Doc.id],
-    },
+    } as any,
   })
 
   payload.logger.info(`— Seeding contact form...`)

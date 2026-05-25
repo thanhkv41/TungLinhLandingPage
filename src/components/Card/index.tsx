@@ -1,14 +1,17 @@
 'use client'
+
 import { cn } from '@/utilities/ui'
 import useClickableCard from '@/utilities/useClickableCard'
 import Link from 'next/link'
-import React, { Fragment } from 'react'
+import React from 'react'
 
-import type { Post } from '@/payload-types'
+import type { Media, Post } from '@/payload-types'
 
-import { Media } from '@/components/Media'
+import { Media as MediaComponent } from '@/components/Media'
 
-export type CardPostData = Pick<Post, 'slug' | 'categories' | 'meta' | 'title'>
+export type CardPostData = Partial<
+  Pick<Post, 'category' | 'excerpt' | 'featuredImage' | 'slug' | 'title'>
+>
 
 export const Card: React.FC<{
   alignItems?: 'center'
@@ -19,15 +22,12 @@ export const Card: React.FC<{
   title?: string
 }> = (props) => {
   const { card, link } = useClickableCard({})
-  const { className, doc, relationTo, showCategories, title: titleFromProps } = props
+  const { className, doc, showCategories, title: titleFromProps } = props
 
-  const { slug, categories, meta, title } = doc || {}
-  const { description, image: metaImage } = meta || {}
-
-  const hasCategories = categories && Array.isArray(categories) && categories.length > 0
+  const { category, excerpt, featuredImage, slug, title } = doc || {}
   const titleToUse = titleFromProps || title
-  const sanitizedDescription = description?.replace(/\s/g, ' ') // replace non-breaking space with white space
-  const href = `/${relationTo}/${slug}`
+  const href = `/tin-tuc/${slug}`
+  const categoryTitle = typeof category === 'object' && category !== null ? category.title : null
 
   return (
     <article
@@ -37,34 +37,16 @@ export const Card: React.FC<{
       )}
       ref={card.ref}
     >
-      <div className="relative w-full ">
-        {!metaImage && <div className="">No image</div>}
-        {metaImage && typeof metaImage !== 'string' && <Media resource={metaImage} size="33vw" />}
+      <div className="relative aspect-[4/3] w-full bg-slate-100">
+        {featuredImage && typeof featuredImage === 'object' && (
+          <MediaComponent fill imgClassName="object-cover" resource={featuredImage as Media} size="33vw" />
+        )}
       </div>
       <div className="p-4">
-        {showCategories && hasCategories && (
-          <div className="uppercase text-sm mb-4">
-            {categories?.map((category, index) => {
-              if (typeof category === 'object') {
-                const { title: titleFromCategory } = category
-
-                const categoryTitle = titleFromCategory || 'Untitled category'
-
-                const isLast = index === categories.length - 1
-
-                return (
-                  <Fragment key={index}>
-                    {categoryTitle}
-                    {!isLast && <Fragment>, &nbsp;</Fragment>}
-                  </Fragment>
-                )
-              }
-
-              return null
-            })}
-          </div>
+        {showCategories && categoryTitle && (
+          <div className="uppercase text-sm mb-4">{categoryTitle}</div>
         )}
-        {titleToUse && (
+        {titleToUse && slug && (
           <div className="prose">
             <h3>
               <Link className="not-prose" href={href} ref={link.ref}>
@@ -73,7 +55,7 @@ export const Card: React.FC<{
             </h3>
           </div>
         )}
-        {description && <div className="mt-2">{description && <p>{sanitizedDescription}</p>}</div>}
+        {excerpt && <div className="mt-2"><p>{excerpt}</p></div>}
       </div>
     </article>
   )

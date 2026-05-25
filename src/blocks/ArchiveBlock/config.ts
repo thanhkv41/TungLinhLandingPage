@@ -24,7 +24,7 @@ export const Archive: Block = {
           ]
         },
       }),
-      label: 'Intro Content',
+      label: 'Nội dung giới thiệu',
     },
     {
       name: 'populateBy',
@@ -32,11 +32,11 @@ export const Archive: Block = {
       defaultValue: 'collection',
       options: [
         {
-          label: 'Collection',
+          label: 'Tự động theo bộ sưu tập',
           value: 'collection',
         },
         {
-          label: 'Individual Selection',
+          label: 'Chọn thủ công',
           value: 'selection',
         },
       ],
@@ -48,10 +48,10 @@ export const Archive: Block = {
         condition: (_, siblingData) => siblingData.populateBy === 'collection',
       },
       defaultValue: 'posts',
-      label: 'Collections To Show',
+      label: 'Bộ sưu tập hiển thị',
       options: [
         {
-          label: 'Posts',
+          label: 'Tin tức',
           value: 'posts',
         },
       ],
@@ -63,7 +63,7 @@ export const Archive: Block = {
         condition: (_, siblingData) => siblingData.populateBy === 'collection',
       },
       hasMany: true,
-      label: 'Categories To Show',
+      label: 'Danh mục hiển thị',
       relationTo: 'categories',
     },
     {
@@ -74,7 +74,7 @@ export const Archive: Block = {
         step: 1,
       },
       defaultValue: 10,
-      label: 'Limit',
+      label: 'Số lượng',
     },
     {
       name: 'selectedDocs',
@@ -83,12 +83,12 @@ export const Archive: Block = {
         condition: (_, siblingData) => siblingData.populateBy === 'selection',
       },
       hasMany: true,
-      label: 'Selection',
+      label: 'Nội dung được chọn',
       relationTo: ['posts'],
     },
   ],
   labels: {
-    plural: 'Archives',
-    singular: 'Archive',
+    plural: 'Danh sách nội dung',
+    singular: 'Danh sách nội dung',
   },
 }

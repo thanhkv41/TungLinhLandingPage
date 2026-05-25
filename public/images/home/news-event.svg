@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="News event placeholder">
+  <rect width="900" height="520" fill="#0f2938"/>
+  <rect x="70" y="70" width="760" height="380" fill="#173d52"/>
+  <circle cx="450" cy="260" r="78" fill="#e51e31"/>
+  <path d="M430 216 L510 260 L430 304 Z" fill="#fff"/>
+  <g fill="#f8fafc" opacity=".9">
+    <rect x="120" y="340" width="220" height="20" rx="10"/><rect x="120" y="376" width="300" height="14" rx="7"/>
+  </g>
+</svg>

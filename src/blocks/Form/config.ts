@@ -14,13 +14,14 @@ export const FormBlock: Block = {
     {
       name: 'form',
       type: 'relationship',
+      label: 'Biểu mẫu',
       relationTo: 'forms',
       required: true,
     },
     {
       name: 'enableIntro',
       type: 'checkbox',
-      label: 'Enable Intro Content',
+      label: 'Hiển thị nội dung giới thiệu',
     },
     {
       name: 'introContent',
@@ -38,14 +39,14 @@ export const FormBlock: Block = {
           ]
         },
       }),
-      label: 'Intro Content',
+      label: 'Nội dung giới thiệu',
     },
   ],
   graphQL: {
     singularName: 'FormBlock',
   },
   labels: {
-    plural: 'Form Blocks',
-    singular: 'Form Block',
+    plural: 'Khối biểu mẫu',
+    singular: 'Khối biểu mẫu',
   },
 }

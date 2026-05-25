@@ -10,8 +10,8 @@ export const revalidatePost: CollectionAfterChangeHook<Post> = ({
   req: { payload, context },
 }) => {
   if (!context.disableRevalidate) {
-    if (doc._status === 'published') {
-      const path = `/posts/${doc.slug}`
+    if (doc.status === 'published') {
+      const path = `/tin-tuc/${doc.slug}`
 
       payload.logger.info(`Revalidating post at path: ${path}`)
 
@@ -20,8 +20,8 @@ export const revalidatePost: CollectionAfterChangeHook<Post> = ({
     }
 
     // If the post was previously published, we need to revalidate the old path
-    if (previousDoc._status === 'published' && doc._status !== 'published') {
-      const oldPath = `/posts/${previousDoc.slug}`
+    if (previousDoc.status === 'published' && doc.status !== 'published') {
+      const oldPath = `/tin-tuc/${previousDoc.slug}`
 
       payload.logger.info(`Revalidating old post at path: ${oldPath}`)
 
@@ -34,7 +34,7 @@ export const revalidatePost: CollectionAfterChangeHook<Post> = ({
 
 export const revalidateDelete: CollectionAfterDeleteHook<Post> = ({ doc, req: { context } }) => {
   if (!context.disableRevalidate) {
-    const path = `/posts/${doc?.slug}`
+    const path = `/tin-tuc/${doc?.slug}`
 
     revalidatePath(path)
     revalidateTag('posts-sitemap', 'max')

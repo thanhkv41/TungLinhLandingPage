@@ -2,15 +2,26 @@ import { postgresAdapter } from '@payloadcms/db-postgres'
 import sharp from 'sharp'
 import path from 'path'
 import { buildConfig, PayloadRequest } from 'payload'
+import { vi } from 'payload/i18n/vi'
 import { fileURLToPath } from 'url'
 
+import { Banners } from './collections/Banners'
 import { Categories } from './collections/Categories'
+import { Certificates } from './collections/Certificates'
+import { ContactSubmissions } from './collections/ContactSubmissions'
+import { Documents } from './collections/Documents'
 import { Media } from './collections/Media'
 import { Pages } from './collections/Pages'
+import { PostCategories } from './collections/PostCategories'
 import { Posts } from './collections/Posts'
+import { ProductCategories } from './collections/ProductCategories'
+import { Products } from './collections/Products'
+import { ProjectCategories } from './collections/ProjectCategories'
+import { Projects } from './collections/Projects'
 import { Users } from './collections/Users'
 import { Footer } from './Footer/config'
 import { Header } from './Header/config'
+import { SiteSettings } from './globals/SiteSettings'
 import { plugins } from './plugins'
 import { defaultLexical } from '@/fields/defaultLexical'
 import { getServerSideURL } from './utilities/getURL'
@@ -35,19 +46,19 @@ export default buildConfig({
     livePreview: {
       breakpoints: [
         {
-          label: 'Mobile',
+          label: 'Điện thoại',
           name: 'mobile',
           width: 375,
           height: 667,
         },
         {
-          label: 'Tablet',
+          label: 'Máy tính bảng',
           name: 'tablet',
           width: 768,
           height: 1024,
         },
         {
-          label: 'Desktop',
+          label: 'Máy tính',
           name: 'desktop',
           width: 1440,
           height: 900,
@@ -62,9 +73,30 @@ export default buildConfig({
       connectionString: process.env.DATABASE_URL || '',
     },
   }),
-  collections: [Pages, Posts, Media, Categories, Users],
+  collections: [
+    Pages,
+    ProductCategories,
+    Products,
+    ProjectCategories,
+    Projects,
+    PostCategories,
+    Posts,
+    Certificates,
+    Documents,
+    Banners,
+    ContactSubmissions,
+    Media,
+    Categories,
+    Users,
+  ],
   cors: [getServerSideURL()].filter(Boolean),
-  globals: [Header, Footer],
+  globals: [SiteSettings, Header, Footer],
+  i18n: {
+    fallbackLanguage: 'vi',
+    supportedLanguages: {
+      vi,
+    },
+  },
   plugins,
   secret: process.env.PAYLOAD_SECRET,
   sharp,

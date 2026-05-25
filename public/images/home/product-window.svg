@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 620" role="img" aria-label="Aluminium window placeholder">
+  <rect width="520" height="620" fill="#f5f6f7"/>
+  <path d="M0 430 L520 330 L520 620 L0 620 Z" fill="#e51e31"/>
+  <path d="M0 500 L520 400 L520 620 L0 620 Z" fill="#0d5975"/>
+  <g transform="translate(145 90)">
+    <rect x="0" y="0" width="230" height="360" rx="4" fill="#111827"/>
+    <rect x="24" y="26" width="182" height="308" fill="#e8f5f8"/>
+    <rect x="108" y="20" width="14" height="320" fill="#111827"/>
+    <rect x="18" y="168" width="194" height="12" fill="#111827"/>
+    <path d="M40 48 L95 145 L40 306 Z" fill="#cde7ed"/>
+    <path d="M137 48 L193 145 L137 306 Z" fill="#cde7ed"/>
+  </g>
+  <rect x="206" y="32" width="108" height="28" rx="14" fill="#f21d2f"/>
+</svg>

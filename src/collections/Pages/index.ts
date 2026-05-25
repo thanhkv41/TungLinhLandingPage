@@ -23,6 +23,10 @@ import {
 
 export const Pages: CollectionConfig<'pages'> = {
   slug: 'pages',
+  labels: {
+    singular: 'Trang nội dung',
+    plural: 'Trang nội dung',
+  },
   access: {
     create: authenticated,
     delete: authenticated,
@@ -37,6 +41,7 @@ export const Pages: CollectionConfig<'pages'> = {
     slug: true,
   },
   admin: {
+    group: 'Nội dung',
     defaultColumns: ['title', 'slug', 'updatedAt'],
     livePreview: {
       url: ({ data, req }) =>
@@ -58,6 +63,7 @@ export const Pages: CollectionConfig<'pages'> = {
     {
       name: 'title',
       type: 'text',
+      label: 'Tiêu đề trang',
       required: true,
     },
     {
@@ -65,7 +71,7 @@ export const Pages: CollectionConfig<'pages'> = {
       tabs: [
         {
           fields: [hero],
-          label: 'Hero',
+          label: 'Mở đầu',
         },
         {
           fields: [
@@ -79,7 +85,7 @@ export const Pages: CollectionConfig<'pages'> = {
               },
             },
           ],
-          label: 'Content',
+          label: 'Nội dung',
         },
         {
           name: 'meta',
@@ -113,6 +119,7 @@ export const Pages: CollectionConfig<'pages'> = {
     {
       name: 'publishedAt',
       type: 'date',
+      label: 'Ngày xuất bản',
       admin: {
         position: 'sidebar',
       },

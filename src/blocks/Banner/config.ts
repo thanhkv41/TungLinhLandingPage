@@ -12,12 +12,13 @@ export const Banner: Block = {
     {
       name: 'style',
       type: 'select',
+      label: 'Kiểu thông báo',
       defaultValue: 'info',
       options: [
-        { label: 'Info', value: 'info' },
-        { label: 'Warning', value: 'warning' },
-        { label: 'Error', value: 'error' },
-        { label: 'Success', value: 'success' },
+        { label: 'Thông tin', value: 'info' },
+        { label: 'Cảnh báo', value: 'warning' },
+        { label: 'Lỗi', value: 'error' },
+        { label: 'Thành công', value: 'success' },
       ],
       required: true,
     },

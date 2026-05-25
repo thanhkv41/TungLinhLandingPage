@@ -4,6 +4,10 @@ import { authenticated } from '../../access/authenticated'
 
 export const Users: CollectionConfig = {
   slug: 'users',
+  labels: {
+    singular: 'Quản trị viên',
+    plural: 'Quản trị viên',
+  },
   access: {
     admin: authenticated,
     create: authenticated,
@@ -12,6 +16,7 @@ export const Users: CollectionConfig = {
     update: authenticated,
   },
   admin: {
+    group: 'Hệ thống',
     defaultColumns: ['name', 'email'],
     useAsTitle: 'name',
   },
@@ -20,6 +25,7 @@ export const Users: CollectionConfig = {
     {
       name: 'name',
       type: 'text',
+      label: 'Tên hiển thị',
     },
   ],
   timestamps: true,

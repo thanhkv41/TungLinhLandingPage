@@ -23,17 +23,29 @@ export const generateMeta = async (args: {
   doc: Partial<Page> | Partial<Post> | null
 }): Promise<Metadata> => {
   const { doc } = args
+  const metadataDoc = doc as
+    | (Partial<Page> & {
+        meta?: {
+          description?: string | null
+          image?: Media | Config['db']['defaultIDType'] | null
+          title?: string | null
+        }
+        ogImage?: Media | Config['db']['defaultIDType'] | null
+        seoDescription?: string | null
+        seoTitle?: string | null
+      })
+    | null
 
-  const ogImage = getImageURL(doc?.meta?.image)
+  const ogImage = getImageURL(metadataDoc?.meta?.image || metadataDoc?.ogImage)
+  const rawTitle = metadataDoc?.meta?.title || metadataDoc?.seoTitle
+  const rawDescription = metadataDoc?.meta?.description || metadataDoc?.seoDescription
 
-  const title = doc?.meta?.title
-    ? doc?.meta?.title + ' | Payload Website Template'
-    : 'Payload Website Template'
+  const title = rawTitle ? rawTitle + ' | Payload Website Template' : 'Payload Website Template'
 
   return {
-    description: doc?.meta?.description,
+    description: rawDescription,
     openGraph: mergeOpenGraph({
-      description: doc?.meta?.description || '',
+      description: rawDescription || '',
       images: ogImage
         ? [
             {

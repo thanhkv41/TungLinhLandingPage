@@ -16,19 +16,19 @@ const columnFields: Field[] = [
     defaultValue: 'oneThird',
     options: [
       {
-        label: 'One Third',
+        label: 'Một phần ba',
         value: 'oneThird',
       },
       {
-        label: 'Half',
+        label: 'Một nửa',
         value: 'half',
       },
       {
-        label: 'Two Thirds',
+        label: 'Hai phần ba',
         value: 'twoThirds',
       },
       {
-        label: 'Full',
+        label: 'Toàn chiều rộng',
         value: 'full',
       },
     ],
@@ -51,6 +51,7 @@ const columnFields: Field[] = [
   {
     name: 'enableLink',
     type: 'checkbox',
+    label: 'Thêm liên kết',
   },
   link({
     overrides: {
@@ -70,6 +71,7 @@ export const Content: Block = {
     {
       name: 'columns',
       type: 'array',
+      label: 'Cột nội dung',
       admin: {
         initCollapsed: true,
       },

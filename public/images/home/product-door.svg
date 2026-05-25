@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 620" role="img" aria-label="Aluminium door placeholder">
+  <rect width="520" height="620" fill="#f5f6f7"/>
+  <path d="M0 435 L520 345 L520 620 L0 620 Z" fill="#e51e31"/>
+  <path d="M0 500 L520 412 L520 620 L0 620 Z" fill="#0d5975"/>
+  <g transform="translate(132 85)">
+    <rect width="256" height="382" rx="6" fill="#7a3d18"/>
+    <rect x="22" y="28" width="96" height="326" fill="#9b5525"/>
+    <rect x="138" y="28" width="96" height="326" fill="#9b5525"/>
+    <g fill="#6a3112">
+      <rect x="40" y="55" width="60" height="105"/><rect x="156" y="55" width="60" height="105"/>
+      <rect x="40" y="205" width="60" height="105"/><rect x="156" y="205" width="60" height="105"/>
+    </g>
+  </g>
+  <rect x="206" y="32" width="108" height="28" rx="14" fill="#f21d2f"/>
+</svg>
