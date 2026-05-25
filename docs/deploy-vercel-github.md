@@ -68,8 +68,13 @@ Sau khi repo đã link vào Vercel:
 
 File `vercel.json` đã cấu hình:
 
-- Gọi `GET /api/payload-jobs/run` mỗi 5 phút.
+- Gọi `GET /api/payload-jobs/run` mỗi ngày lúc `01:00` (UTC) để tương thích Vercel Hobby.
 - Endpoint đã được bảo vệ trong `src/payload.config.ts` bằng `CRON_SECRET`.
+
+Lưu ý theo plan:
+
+- Hobby: chỉ hỗ trợ cron chạy tối đa 1 lần/ngày.
+- Pro trở lên: có thể chạy theo phút/giờ.
 
 ## 8) Checklist verify sau deploy
 
