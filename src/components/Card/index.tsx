@@ -1,7 +1,6 @@
 'use client'
 
 import { cn } from '@/utilities/ui'
-import useClickableCard from '@/utilities/useClickableCard'
 import Link from 'next/link'
 import React from 'react'
 
@@ -21,7 +20,6 @@ export const Card: React.FC<{
   showCategories?: boolean
   title?: string
 }> = (props) => {
-  const { card, link } = useClickableCard({})
   const { className, doc, showCategories, title: titleFromProps } = props
 
   const { category, excerpt, featuredImage, slug, title } = doc || {}
@@ -32,10 +30,9 @@ export const Card: React.FC<{
   return (
     <article
       className={cn(
-        'border border-border rounded-lg overflow-hidden bg-card hover:cursor-pointer',
+        'border border-border rounded-lg overflow-hidden bg-card',
         className,
       )}
-      ref={card.ref}
     >
       <div className="relative aspect-[4/3] w-full bg-slate-100">
         {featuredImage && typeof featuredImage === 'object' && (
@@ -49,7 +46,7 @@ export const Card: React.FC<{
         {titleToUse && slug && (
           <div className="prose">
             <h3>
-              <Link className="not-prose" href={href} ref={link.ref}>
+              <Link className="not-prose" href={href}>
                 {titleToUse}
               </Link>
             </h3>

@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useMemo, useState } from 'react'
+import { useMemo, useState } from 'react'
 
 import { Media } from '@/components/Media'
 import { cn } from '@/utilities/ui'
@@ -22,16 +22,8 @@ type ProductDetailGalleryProps = {
 export function ProductDetailGallery({ productTitle, images }: ProductDetailGalleryProps) {
   const mediaImages = useMemo(() => images.filter(isMediaObject), [images])
   const [activeIndex, setActiveIndex] = useState(0)
-
-  useEffect(() => {
-    if (mediaImages.length === 0) {
-      setActiveIndex(0)
-      return
-    }
-    if (activeIndex >= mediaImages.length) {
-      setActiveIndex(0)
-    }
-  }, [activeIndex, mediaImages.length])
+  const visibleIndex =
+    mediaImages.length > 0 && activeIndex < mediaImages.length ? activeIndex : 0
 
   if (mediaImages.length === 0) {
     return (
@@ -56,10 +48,10 @@ export function ProductDetailGallery({ productTitle, images }: ProductDetailGall
       <div className="relative block aspect-square overflow-hidden rounded-md border border-slate-200 bg-white">
         {mediaImages.map((image, index) => (
           <div
-            aria-hidden={activeIndex !== index}
+            aria-hidden={visibleIndex !== index}
             className={cn(
               'absolute inset-0 transition-opacity duration-300',
-              activeIndex === index ? 'opacity-100' : 'pointer-events-none opacity-0',
+              visibleIndex === index ? 'opacity-100' : 'pointer-events-none opacity-0',
             )}
             key={`${String(image.id || image.url || index)}-${index}`}
           >
@@ -99,7 +91,7 @@ export function ProductDetailGallery({ productTitle, images }: ProductDetailGall
                   aria-label={`Chuyen den anh ${index + 1}`}
                   className={cn(
                     'h-2.5 w-2.5 rounded-full transition-colors',
-                    activeIndex === index ? 'bg-slate-800' : 'bg-slate-300 hover:bg-slate-400',
+                    visibleIndex === index ? 'bg-slate-800' : 'bg-slate-300 hover:bg-slate-400',
                   )}
                   key={`dot-${String(image.id || image.url || index)}-${index}`}
                   onClick={() => setActiveIndex(index)}
@@ -118,7 +110,7 @@ export function ProductDetailGallery({ productTitle, images }: ProductDetailGall
               aria-label={`Xem anh ${index + 1}`}
               className={cn(
                 'w-24 shrink-0 rounded-md border-2 transition-colors sm:w-[110px]',
-                activeIndex === index ? 'border-red-500' : 'border-slate-200 hover:border-slate-300',
+                visibleIndex === index ? 'border-red-500' : 'border-slate-200 hover:border-slate-300',
               )}
               key={`thumb-${String(image.id || image.url || index)}-${index}`}
               onClick={() => setActiveIndex(index)}
