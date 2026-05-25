@@ -35,6 +35,10 @@ Thêm cho cả `Production` và `Preview` (trừ khi bạn muốn tách riêng):
 3. `NEXT_PUBLIC_SERVER_URL`
 4. `CRON_SECRET`
 5. `PREVIEW_SECRET`
+6. `BLOB_READ_WRITE_TOKEN`
+
+Trước khi set `BLOB_READ_WRITE_TOKEN`, cần vào Vercel để add Blob storage cho project
+(Storage -> Blob). Sau khi tạo, Vercel sẽ cung cấp token này.
 
 Gợi ý:
 
@@ -80,7 +84,9 @@ Lưu ý theo plan:
 
 1. Truy cập `/admin` đăng nhập được.
 2. Tạo/sửa nội dung `Products`, `Projects`, `Posts` thành công.
-3. Các trang public render đúng:
+3. Upload thử 1 ảnh trong `Media` và mở ảnh trực tiếp để xác nhận Blob hoạt động.
+4. Nếu ảnh cũ đã upload bằng local filesystem trước đây bị mất trên Vercel, cần upload lại (hoặc migrate file cũ sang Blob).
+5. Các trang public render đúng:
    - `/san-pham`, `/du-an`, `/tin-tuc`, `/lien-he`, ...
-4. Kiểm tra logs Vercel không có lỗi kết nối DB.
-5. Kiểm tra Cron đã chạy trong tab Logs/Functions.
+6. Kiểm tra logs Vercel không có lỗi kết nối DB.
+7. Kiểm tra Cron đã chạy trong tab Logs/Functions.
