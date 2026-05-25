@@ -1,5 +1,5 @@
 import { Banner } from '@payloadcms/ui/elements/Banner'
-import Link from 'next/link'
+import { Link } from '@payloadcms/ui/elements/Link'
 import React from 'react'
 
 import './index.scss'
