@@ -3,7 +3,6 @@
 import { ChevronDown, Menu, Search, X } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { usePathname } from 'next/navigation'
 import { useMemo, useState } from 'react'
 
 type ProductCategory = {
@@ -30,9 +29,7 @@ export function HeaderClient({
   productCategories?: ProductCategory[]
   siteName?: string | null
 }) {
-  const pathname = usePathname()
   const [open, setOpen] = useState(false)
-  const isHome = pathname === '/'
   const brandName = siteName || 'Tùng Linh'
   const categories = useMemo(
     () =>
@@ -42,21 +39,13 @@ export function HeaderClient({
       ),
     [productCategories],
   )
-  const logoSizeClass = isHome
-    ? 'h-[144px] w-[144px] md:h-[160px] md:w-[160px]'
-    : 'h-[72px] w-[72px] md:h-20 md:w-20'
-  const logoSizes = isHome ? '(min-width: 768px) 160px, 144px' : '(min-width: 768px) 80px, 72px'
+  const logoSizeClass = 'h-[72px] w-[72px] md:h-20 md:w-20'
+  const logoSizes = '(min-width: 768px) 80px, 72px'
   const desktopDropdownClasses =
     'pointer-events-none absolute left-1/2 top-full z-30 mt-2 w-[255px] -translate-x-1/2 opacity-0 transition-all duration-150 group-hover:pointer-events-auto group-hover:opacity-100 group-focus-within:pointer-events-auto group-focus-within:opacity-100'
 
   return (
-    <header
-      className={
-        isHome
-          ? 'absolute left-0 top-0 z-50 w-full text-white'
-          : 'sticky top-0 z-50 border-b border-slate-200 bg-white text-slate-950 shadow-sm'
-      }
-    >
+    <header className="sticky top-0 z-50 border-b border-slate-200 bg-white text-slate-950 shadow-sm">
       <div className="mx-auto flex min-h-[72px] max-w-[1180px] items-center justify-between px-4 py-3">
         <Link className="inline-flex items-center" href="/">
           {logoUrl ? (
